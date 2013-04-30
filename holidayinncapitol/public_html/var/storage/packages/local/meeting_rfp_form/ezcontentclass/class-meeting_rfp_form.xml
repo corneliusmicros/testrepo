@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="false" sort-field="path" sort-order="1">
+  <serialized-name-list>a:2:{s:6:"eng-US";s:16:"Meeting RFP Form";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <identifier>meeting_rfp_form</identifier>
+  <remote-id>d00063851f4bc2ee8ca1233d5dddbb19</remote-id>
+  <object-name-pattern>Meeting RFP Form</object-name-pattern>
+  <url-alias-pattern></url-alias-pattern>
+  <remote>
+    <site-url>http://morrisonclark.nete.com/index.php/</site-url>
+    <url>http://morrisonclark.nete.com/index.php/class/view/38</url>
+    <groups>
+      <group id="1" name="Content"/>
+    </groups>
+    <id>38</id>
+    <created>1298364996</created>
+    <modified>1299675613</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>813</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:30:"Date proposal must be received";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>date_must_receive</identifier>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>822</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:10:"First Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>first_name</identifier>
+      <placement>2</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>823</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Last Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>last_name</identifier>
+      <placement>3</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>824</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:6:"Street";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>street</identifier>
+      <placement>4</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>825</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Suite/Apt";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>suite_apt</identifier>
+      <placement>5</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>826</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:4:"City";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>city</identifier>
+      <placement>6</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezselection" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>827</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:5:"State";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>state</identifier>
+      <placement>7</placement>
+      <datatype-parameters>
+        <options>
+          <option id="0" name="Select a State"/>
+          <option id="1" name="Alabama"/>
+          <option id="2" name="Alaska"/>
+          <option id="3" name="Arkansas"/>
+          <option id="4" name="California"/>
+          <option id="5" name="Colorado"/>
+          <option id="6" name="Connecticut"/>
+          <option id="7" name="Delaware"/>
+          <option id="8" name="Florida"/>
+          <option id="9" name="Georgia"/>
+          <option id="10" name="Hawaii"/>
+          <option id="11" name="Idaho"/>
+          <option id="12" name="Illinois"/>
+          <option id="13" name="Indiana"/>
+          <option id="14" name="Iowa"/>
+          <option id="15" name="Kansas"/>
+          <option id="16" name="Kentucky"/>
+          <option id="17" name="Louisiana"/>
+          <option id="18" name="Maine"/>
+          <option id="19" name="Maryland"/>
+          <option id="20" name="Massachusetts"/>
+          <option id="21" name="Michigan"/>
+          <option id="22" name="Minnesota"/>
+          <option id="23" name="Mississippi"/>
+          <option id="24" name="Missouri"/>
+          <option id="25" name="Montana"/>
+          <option id="26" name="Nebraska"/>
+          <option id="27" name="Nevada"/>
+          <option id="28" name="New Hampshire"/>
+          <option id="29" name="New Jersey"/>
+          <option id="30" name="New Mexico"/>
+          <option id="31" name="New York"/>
+          <option id="32" name="North Carolina"/>
+          <option id="33" name="North Dakota"/>
+          <option id="34" name="Ohio"/>
+          <option id="35" name="Oklahoma"/>
+          <option id="36" name="Oregon"/>
+          <option id="37" name="Pennsylvania"/>
+          <option id="38" name="Rhode Island"/>
+          <option id="39" name="South Carolina"/>
+          <option id="40" name="South Dakota"/>
+          <option id="41" name="Tennessee"/>
+          <option id="42" name="Texas"/>
+          <option id="43" name="Utah"/>
+          <option id="44" name="Vermont"/>
+          <option id="45" name="Virginia"/>
+          <option id="46" name="Washington"/>
+          <option id="47" name="West Virginia"/>
+          <option id="48" name="Wisconsin"/>
+          <option id="49" name="Wyoming"/>
+        </options>
+        <is-multiselect>0</is-multiselect>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>828</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:15:"Zip/Postal Code";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>zip_postal_code</identifier>
+      <placement>8</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezemail" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>839</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:6:"E-Mail";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>email</identifier>
+      <placement>9</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>830</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:12:"Phone Number";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>phone_number</identifier>
+      <placement>10</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>831</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:3:"Fax";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>fax</identifier>
+      <placement>11</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezselection" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>832</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:32:"Type of Event Meeting - Function";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>type_of_event_meeting_function</identifier>
+      <placement>12</placement>
+      <datatype-parameters>
+        <options>
+          <option id="0" name="Association"/>
+          <option id="1" name="Corporate"/>
+          <option id="2" name="Education"/>
+          <option id="3" name="Fraternal"/>
+          <option id="4" name="Milirary"/>
+          <option id="5" name="Religious"/>
+          <option id="6" name="Social"/>
+          <option id="7" name="Wedding"/>
+          <option id="8" name="Other"/>
+        </options>
+        <is-multiselect>0</is-multiselect>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>833</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:31:"Meeting - Event - Function Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_event_function_name</identifier>
+      <placement>13</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>834</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:43:"Brief Description of Meeting-Event-Function";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>brief_description_of_meeting_event_function</identifier>
+      <placement>14</placement>
+      <datatype-parameters>
+        <text-column-count>5</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>835</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:12:"Arrival Date";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>arrival_date</identifier>
+      <placement>15</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>836</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:14:"Departure Date";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>departure_date</identifier>
+      <placement>16</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezselection" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>837</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:26:"Are these dates flexible ?";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>are_these_dates_flexible</identifier>
+      <placement>17</placement>
+      <datatype-parameters>
+        <options>
+          <option id="0" name="Yes"/>
+          <option id="1" name="No"/>
+        </options>
+        <is-multiselect>0</is-multiselect>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>838</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:37:"What are your alternate dates if any?";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>alt_dates</identifier>
+      <placement>18</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>840</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:21:"Meeting Room Date One";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_date_one</identifier>
+      <placement>19</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>841</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:27:"Meeting Room Start Time One";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_start_time_one</identifier>
+      <placement>20</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>842</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:25:"Meeting Room End Time One";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_end_time_one</identifier>
+      <placement>21</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>843</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:23:"Meeting Room People One";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_people_one</identifier>
+      <placement>22</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>844</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:22:"Meeting Room Setup One";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_setup_one</identifier>
+      <placement>23</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>845</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:21:"Meeting Room Date Two";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_date_two</identifier>
+      <placement>24</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>846</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:27:"Meeting Room Start Time Two";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_start_time_two</identifier>
+      <placement>25</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>847</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:25:"Meeting Room End Time Two";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_end_time_two</identifier>
+      <placement>26</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>848</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:23:"Meeting Room People Two";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_people_two</identifier>
+      <placement>27</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>849</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:22:"Meeting Room Setup Two";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_setup_two</identifier>
+      <placement>28</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>850</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:23:"Meeting Room Date Three";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_date_three</identifier>
+      <placement>29</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>851</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:29:"Meeting Room Start Time Three";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_start_time_three</identifier>
+      <placement>30</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>852</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:27:"Meeting Room End Time Three";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_end_time_three</identifier>
+      <placement>31</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>853</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:25:"Meeting Room People Three";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_people_three</identifier>
+      <placement>32</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>854</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:24:"Meeting Room Setup Three";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_setup_three</identifier>
+      <placement>33</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>855</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:22:"Meeting Room Date Four";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_date_four</identifier>
+      <placement>34</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>856</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:28:"Meeting Room Start Time Four";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_start_time_four</identifier>
+      <placement>35</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>857</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:26:"Meeting Room End Time Four";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_end_time_four</identifier>
+      <placement>36</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>858</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:24:"Meeting Room People Four";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_people_four</identifier>
+      <placement>37</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>859</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:23:"Meeting Room Setup Four";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_setup_four</identifier>
+      <placement>38</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>860</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:22:"Meeting Room Date Five";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_date_five</identifier>
+      <placement>39</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>861</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:28:"Meeting Room Start Time Five";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_start_time_five</identifier>
+      <placement>40</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>862</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:26:"Meeting Room End Time Five";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_end_time_five</identifier>
+      <placement>41</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>863</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:24:"Meeting Room People Five";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_people_five</identifier>
+      <placement>42</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>864</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:23:"Meeting Room Setup Five";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>meeting_room_setup_five</identifier>
+      <placement>43</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>865</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:44:"AV, Business Services and other requirements";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>av_business_services_and_other_requirements</identifier>
+      <placement>44</placement>
+      <datatype-parameters>
+        <text-column-count>5</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>866</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:30:"Sleeping Room Arrival Date One";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_arrival_date_one</identifier>
+      <placement>45</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>867</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:32:"Sleeping Room Departure Date One";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_departure_date_one</identifier>
+      <placement>46</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>868</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:24:"Sleeping Room Single One";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_single_one</identifier>
+      <placement>47</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>869</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:24:"Sleeping Room Double One";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_double_one</identifier>
+      <placement>48</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>870</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:23:"Sleeping Room Suite One";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_suite_one</identifier>
+      <placement>49</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>871</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:23:"Sleeping Room Total One";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_total_one</identifier>
+      <placement>50</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>872</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:30:"Sleeping Room Arrival Date Two";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_arrival_date_two</identifier>
+      <placement>51</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>873</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:32:"Sleeping Room Departure Date Two";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_departure_date_two</identifier>
+      <placement>52</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>874</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:24:"Sleeping Room Single Two";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_single_two</identifier>
+      <placement>53</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>875</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:24:"Sleeping Room Double Two";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_double_two</identifier>
+      <placement>54</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>876</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:23:"Sleeping Room Suite Two";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_suite_two</identifier>
+      <placement>55</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>877</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:23:"Sleeping Room Total Two";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_total_two</identifier>
+      <placement>56</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>878</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:32:"Sleeping Room Arrival Date Three";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_arrival_date_three</identifier>
+      <placement>57</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>879</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:34:"Sleeping Room Departure Date Three";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_departure_date_three</identifier>
+      <placement>58</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>880</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:26:"Sleeping Room Single Three";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_single_three</identifier>
+      <placement>59</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>881</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:26:"Sleeping Room Double Three";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_double_three</identifier>
+      <placement>60</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>882</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:25:"Sleeping Room Suite Three";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_suite_three</identifier>
+      <placement>61</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>883</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:25:"Sleeping Room Total Three";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_total_three</identifier>
+      <placement>62</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>884</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:31:"Sleeping Room Arrival Date Four";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_arrival_date_four</identifier>
+      <placement>63</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>885</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:15:"new attribute64";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>new_attribute64</identifier>
+      <placement>64</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>886</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:33:"Sleeping Room Departure Date Four";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_departure_date_four</identifier>
+      <placement>65</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>887</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:25:"Sleeping Room Single Four";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_single_four</identifier>
+      <placement>66</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>888</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:25:"Sleeping Room Double Four";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_double_four</identifier>
+      <placement>67</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>889</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:24:"Sleeping Room Suite Four";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_suite_four</identifier>
+      <placement>68</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>890</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:24:"Sleeping Room Total Four";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_total_four</identifier>
+      <placement>69</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>891</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:31:"Sleeping Room Arrival Date Five";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_arrival_date_five</identifier>
+      <placement>70</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>892</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:33:"Sleeping Room Departure Date Five";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_departure_date_five</identifier>
+      <placement>71</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>893</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:25:"Sleeping Room Single Five";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_single_five</identifier>
+      <placement>72</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>894</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:25:"Sleeping Room Double Five";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_double_five</identifier>
+      <placement>73</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>895</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:24:"Sleeping Room Suite Five";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_suite_five</identifier>
+      <placement>74</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>896</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:24:"Sleeping Room Total Five";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>sleeping_room_total_five</identifier>
+      <placement>75</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezselection" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>897</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:25:"Food &amp; Beverage Required?";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>food_beverage_required</identifier>
+      <placement>76</placement>
+      <datatype-parameters>
+        <options>
+          <option id="0" name="Yes"/>
+          <option id="1" name="No"/>
+        </options>
+        <is-multiselect>0</is-multiselect>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>898</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:36:"Hospitality and Banquet Requirements";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>hospitality_and_banquet_requirements</identifier>
+      <placement>77</placement>
+      <datatype-parameters>
+        <text-column-count>5</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>899</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:38:"Transportation, Recreation, tour, etc.";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>transportation_recreation_tour_ect</identifier>
+      <placement>78</placement>
+      <datatype-parameters>
+        <text-column-count>5</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezselection" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>900</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:34:"Where should we send our response?";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>where_should_we_send_our_response</identifier>
+      <placement>79</placement>
+      <datatype-parameters>
+        <options>
+          <option id="0" name="Phone"/>
+          <option id="1" name="Email"/>
+          <option id="2" name="Fax"/>
+          <option id="3" name="Mail"/>
+        </options>
+        <is-multiselect>1</is-multiselect>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>901</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:17:"Thank You message";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>thank_you_message</identifier>
+      <placement>80</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezemail" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>902</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Send To";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>recipient</identifier>
+      <placement>81</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="ezcountry" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>916</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Country";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>country</identifier>
+      <placement>82</placement>
+      <datatype-parameters/>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

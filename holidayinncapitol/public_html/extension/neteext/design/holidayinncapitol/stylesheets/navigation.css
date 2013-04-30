@@ -1,0 +1,186 @@
+#navigation {
+	width:980px;
+	height:38px;
+	z-index:5;
+	position: absolute;	
+	background:transparent url("../images/bg-nav.png") no-repeat 0 0;
+	top:27px;
+}
+ul#css3menu1, ul#css3menu1 ul {
+	margin:0;
+	list-style:none;
+	padding:0px;
+}
+ul#css3menu1 ul {
+	display:none;
+	position:absolute;
+	margin:0px;
+	left:0;
+	top:100%;
+	width:100%;
+	padding:0px;
+	background:transparent url("../images/nav-bg.png");
+	background-repeat:repeat-x;
+	
+}
+ul#css3menu1 li:hover>* {
+	display:block;
+}
+ul#css3menu1 li:hover {
+	position:relative;
+}
+ul#css3menu1 ul ul{
+	position:absolute;
+	left:102%;
+	top:0;
+}
+
+ul#css3menu1 {
+	display:block;
+	font-size:0;
+	float:right;
+}
+ul#css3menu1 li {
+	display:block;
+	padding:0px;
+	font-family:'MyriadProRegular';
+	display: block;
+	color:#5D564A;
+	font-size:13px;
+	float:left;
+}
+ul#css3menu1>li, ul#css3menu1 li {
+	display:block;
+	margin:0;
+}
+ul#css3menu1 a:active, ul#css3menu1 a:focus {
+	outline-style:none;
+	
+}
+ul#css3menu1 a, ul#css3menu1 a.pressed {
+	font-family:'MyriadProRegular';
+	display: block;
+	color:#fff;
+	font-size:13px;
+	font-weight:normal;
+	letter-spacing:normal;
+	word-spacing:normal;
+	padding:0px;
+	cursor:pointer;
+}
+ul#css3menu1 ul li {
+	float:none;
+	margin:0px 0px;
+	border-top:solid 1px #bed4b6;
+}
+ul#css3menu1 ul li a {
+	text-align:center;
+	padding:7px 0 7px 0;
+	margin:0px;
+	background-image:none;
+	font-family:'MyriadProRegular';
+	display: block;
+	color: #ffffff;
+	font-size:13px;
+	font-weight:normal;
+	letter-spacing:normal;
+	text-transform:none;
+	word-spacing:normal;
+	width:100%;
+	text-decoration:none;
+}
+ul#css3menu1 li:hover>a {
+	ffont-family:'MyriadProRegular';
+	display: block;
+	color:#4b8540;
+	font-size:13px;
+	font-weight:normal;
+	letter-spacing:normal;
+	word-spacing:normal;
+	text-decoration:none;
+}
+ul#css3menu1 img {
+	border:none;
+	vertical-align:middle;
+}
+ul#css3menu1 img.over {
+	display:none;
+}
+ul#css3menu1 li:hover > a img.def {
+	display:none;
+}
+ul#css3menu1 li:hover > a img.over {
+	display:inline;
+}
+ul#css3menu1 li a.pressed img.over {
+	display:inline;
+}
+ul#css3menu1 li a.pressed img.def {
+	display:none;
+}
+ul#css3menu1 span {
+	display:block;
+	font-family:'MyriadProRegular';
+	font-size:13px;
+	height:33px;
+	font-weight: normal;
+	color:#0d0301;
+	padding:8px 12px 7px 12px;
+	line-height:18px;
+	text-transform:uppercase;
+	word-spacing:-1px;
+}
+ul#css3menu1 a {
+	display:block;
+	font-family:'MyriadProRegular';
+	font-size:13px;
+	font-weight: normal;
+	color:#0d0301;
+	padding:8px 12px 7px 12px;
+	line-height:18px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+ul#css3menu1 li:hover>a, ul#css3menu1 li>a.pressed {
+	color:#fff;
+	display:block;
+	background:url("../images/rollover-bg.jpg") repeat-x 0 0;
+	background-repeat:repeat-x;
+	text-decoration:none;
+}
+ul#css3menu1 li:hover>a, ul#css3menu1 li>a.active {
+	color:#fff;
+	display:block;
+	background:url("../images/rollover-bg.jpg") repeat-x 0 0;
+	background-repeat:repeat-x;
+	text-decoration:none;
+}
+ul#css3menu1 ul li:hover>a, ul#css3menu1 ul li>a.pressed {
+	font-family:'MyriadProRegular';
+	display: block;
+	color:#4b8540;
+	font-size:13px;
+	font-weight:normal;
+	letter-spacing:normal;
+	word-spacing:normal;
+	background:none;
+	text-decoration:none;
+	text-transform:none;
+	background:transparent url("../images/white-bg.png") left top repeat;
+	text-align: center;
+	
+}
+ul#css3menu1 li.topfirst>a {
+	border-radius:0px 0 0 0px;
+	-moz-border-radius:0px 0 0 0px;
+	-webkit-border-radius:0px;
+	-webkit-border-top-right-radius:0;
+	-webkit-border-bottom-right-radius:0;
+}
+ul#css3menu1 li.toplast>a {
+	border-radius:0 0px 0px 0;
+	-moz-border-radius:0 0px 0px 0;
+	-webkit-border-radius:0;
+	-webkit-border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+}

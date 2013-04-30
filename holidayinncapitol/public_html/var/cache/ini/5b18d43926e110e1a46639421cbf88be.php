@@ -1,0 +1,6 @@
+<?php
+$eZIniCacheCodeDate = 1043407542;
+$charset = "utf-8";
+$val = array ('BinaryFileSettings' => array ('Handler' => 'eZFilePassthroughHandler',),'ArchiveSettings' => array ('Handlers' => array ('tar' => 'eztararchivehandler',),),'FileSettings' => array ('Handlers' => array ('gzip' => 'ezgzipcompressionhandler','gzipzlib' => 'ezgzipzlibcompressionhandler','gzipshell' => 'ezgzipshellcompressionhandler',),),'ClusteringSettings' => array ('FileHandler' => 'eZDBFileHandler','DBBackend' => 'eZDBFileHandlerMysqlBackend','DBHost' => 'tig.mysql.master','DBPort' => '','DBSocket' => '','DBName' => 'holidayinncapitol_4_3_0','DBUser' => 'ezp','DBPassword' => 'publish','DBChunkSize' => '65535','DBConnectRetries' => '3','DBExecuteRetries' => '20','NonExistantStaleCacheHandling' => array ('viewcache' => 'wait','cacheblock' => 'wait','misc' => 'wait',),),'eZDFSClusteringSettings' => array ('MountPointPath' => '','DBBackend' => 'eZDFSFileHandlerMySQLBackend','DBHost' => 'dbhost','DBPort' => '3306','DBSocket' => '','DBName' => 'cluster','DBUser' => 'root','DBPassword' => '','DBConnectRetries' => '3','DBExecuteRetries' => '20',),'PassThroughSettings' => array ('ContentDisposition' => array ('application/x-shockwave-flash' => 'inline','application/pdf' => 'inline',),),
+);
+?>

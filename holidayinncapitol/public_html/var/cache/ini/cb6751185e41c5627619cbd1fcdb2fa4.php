@@ -1,0 +1,6 @@
+<?php
+$eZIniCacheCodeDate = 1043407542;
+$charset = "utf-8";
+$val = array ('ExtensionSettings' => array ('DesignExtensions' => array (0 => 'collectexport',1 => 'neteext',2 => 'ezodf',3 => 'ezoe',4 => 'ezjscore',5 => 'ezmultiupload',),),'StylesheetSettings' => array ('SiteCSS' => 'stylesheets/t02/site-colors.css','ClassesCSS' => 'stylesheets/t02/classes-colors.css','CSSFileList' => array (0 => 'style.css',1 => 'fonts.css',2 => 'menu.css',3 => 'prettyPhoto.css',4 => 'calendar-css/jquery-ui.css',5 => 'form.css',6 => 'ezmultiupload.css',),'FrontendCSSFileList' => array (),'BackendCSSFileList' => array (),'EditorCSSFileList' => array (0 => 'skins/<skin>/content.css',),),'JavaScriptSettings' => array ('JavaScriptList' => array (0 => 'jquery-1.4.2.min.js',1 => 'jquery-ui-1.8.9.custom.min.js',2 => 'jquery.cycle.js',3 => 'cufon-yui.js',4 => 'jquery.prettyPhoto.js',5 => 'Myriad_Pro_300.font.js',6 => 'Myriad_Pro_400.font.js',7 => 'Myriad_Pro_700.font.js',8 => 'TradeGothic_700.font.js',9 => 'global.js',10 => 'omniture.js',11 => 's-code.js',),'FrontendJavaScriptList' => array (),'BackendJavaScriptList' => array (0 => 'tools/ezjsselection.js',1 => 'lib/ezjslibimagepreloader.js',2 => 'popupmenu/ezpopupmenu.js',3 => 'rightmenu_widthcontrol.js',4 => 'leftmenu_widthcontrol.js',),),
+);
+?>

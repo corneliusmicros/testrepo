@@ -1,0 +1,113 @@
+form{
+	border:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+fieldset {
+	border: 0;
+	padding:5px 0 5px 0;
+	margin:0px;
+}
+.page_form{
+	margin:15px 0 15px 0;
+}
+.page_form label{
+	clear: left;
+    display: block;
+    float: left;
+    padding-top: 1px;
+    width: 225px;
+	margin:0 0 0 0px;
+}
+.page_form input.input-text{
+	background:#fff;
+    border: 1px solid #C2C3BD;
+    color: #666666;
+    display: inline;
+    float: left;
+    font-size: 11px;
+    padding: 1px;
+    width: 170px;
+	height:18px;
+	margin:0 3px 3px 2px;
+}
+.page_form input.arrival{	
+	margin:0 5px 0 0;	
+	width: 120px;
+}
+.page_form input.small{	
+	width: 120px;
+}
+.page_form input.met_block{	
+	width: 70px;
+}
+.page_form select.select-text{
+	background:#fff;
+    border: 1px solid #C2C3BD;
+    color: #666666;
+    display: inline;
+    float: left;
+    font-size: 11px;
+	padding: 1px;
+	margin-left:2px;
+	height:20px;
+}
+.page_form textarea.textarea-text{		
+	font:11px Arial, Verdana, Helvetica, sans-serif;
+	background: none repeat scroll 0 0 #fff;
+    border: 1px solid #C2C3BD;
+    color: #666666;
+	padding: 1px;
+	width:250px;
+}
+.page_form .radios{
+	float:left;
+	list-style-image:none;
+	list-style:none;	
+	padding:0px;
+}
+.page_form ul.radios li.formRadio{	
+	margin:-10px 0 0 0;
+	list-style-image:none;
+	list-style:none;
+}
+.page_form input.submit_btn{
+	background:transparent url("../images/btn_submit.gif") 0 0 no-repeat;
+	text-transform:uppercase;		
+	text-indent:-99999px;	
+	width:75px;
+	height:18px;
+	border:0;
+	padding:-10px 0 0 0;
+	margin:0 0 0 175px;
+	cursor:pointer;
+}
+.page_form input.reset_btn{
+	background:transparent url("../images/btn_reset.gif") 0 0 no-repeat;
+	text-transform:uppercase;		
+	text-indent:-99999px;	
+	width:75px;
+	height:18px;
+	border:0;
+	padding:0;
+	margin:1px 0 0 10px;
+	cursor:pointer;
+}
+.ui-datepicker-trigger{
+	cursor:pointer;
+	margin:0 5px 0 0;
+}
+#reservation .ui-datepicker-trigger{
+	cursor:pointer;
+	position:absolute;
+	top:24px;
+}
+#reservation-int .ui-datepicker-trigger{
+	cursor:pointer;
+	position:absolute;
+	top:24px;
+}
+.page_form input.checkbox{
+	background:none repeat scroll 0 0;
+	margin:2px 10px 0 -18px;
+}

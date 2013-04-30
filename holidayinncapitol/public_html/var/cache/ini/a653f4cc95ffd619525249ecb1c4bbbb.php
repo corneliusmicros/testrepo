@@ -1,0 +1,6 @@
+<?php
+$eZIniCacheCodeDate = 1043407542;
+$charset = "utf-8";
+$val = array ('ezjscServer_ezoe' => array ('Class' => 'ezoeServerFunctions',),'eZJSCore' => array ('LoadFromCDN' => 'enabled','PreferredLibrary' => 'yui3','ExternalScripts' => array ('yui3' => 'http://yui.yahooapis.com/3.0.0/build/yui/yui-min.js','yui2' => 'http://yui.yahooapis.com/2.7.0/build/yuiloader/yuiloader-min.js','jquery' => 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',),'LocalScripts' => array ('yui3' => '/lib/yui/3.0/build/yui/yui-min.js','yui2' => '/lib/yui/2.7.0/build/yuiloader/yuiloader-min.js','jquery' => 'jquery-1.4.2.min.js',),'LocalScriptBasePath' => array ('yui3' => 'lib/yui/3.0/build/','yui2' => 'lib/yui/2.7.0/build/',),),'Packer' => array ('AppendLastModifiedTime' => 'disabled','CustomHosts' => array (),),'ezjscServer' => array ('FunctionList' => array (0 => 'ezjsctemplate',),),'ezjscServer_ezjsc' => array ('Class' => 'ezjscServerFunctionsJs','File' => 'extension/ezjscore/classes/ezjscserverfunctionsjs.php',),'ezjscServer_ezjsctemplate' => array ('TemplateFunction' => 'true','Functions' => array (0 => 'ezjsctemplate',),),
+);
+?>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.5.2" development="false" install_type="install">
+  <name>sub_page</name>
+  <summary>Export of content class Sub Page</summary>
+  <description>This package contains an exported definition of the content class Sub Page which can be imported to another eZ Publish site</description>
+  <type value="contentclass"/>
+  <ezpublish>
+    <version>4.3.0</version>
+    <named-version>4.3</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>Administrator User</name>
+      <email>akhilesh.singh@netesoft.com</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1307789590</timestamp>
+    <host>192.168.0.11</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain" name="LICENCE"/>
+  </documents>
+  <changelog>
+    <entry timestamp="1307789590" person="Administrator User" email="akhilesh.singh@netesoft.com" release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+  <simple-files/>
+  <version>
+    <number>1.0</number>
+    <release>1</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides>
+      <provide type="ezcontentclass" name="contentclass" value="sub_page"/>
+    </provides>
+    <requires/>
+    <obsoletes/>
+    <conflicts/>
+  </dependencies>
+  <install>
+    <item type="ezcontentclass" filename="class-sub_page" sub-directory="ezcontentclass"/>
+  </install>
+  <uninstall>
+    <item type="ezcontentclass" filename="class-sub_page" sub-directory="ezcontentclass"/>
+  </uninstall>
+</package>

@@ -1,0 +1,334 @@
+a:11:{s:7:"content";s:17758:"	
+
+<script type="text/javascript" src="http://dev.tigglobal.com/neteMapApi.js"></script> 
+
+	 <script type="text/javascript">
+		<!--
+		var map;
+		var newpoints = new Array();
+		
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function'){
+				window.onload = func
+			} else {
+				window.onload = function() {
+					oldonload();
+					func();
+				}
+			}
+		}
+		
+		addLoadEvent(loadMap);
+		addLoadEvent(addPoints);
+		
+		function loadMap() {
+			map = new GMap2(document.getElementById("map1"));
+			map.addControl(new GLargeMapControl3D());
+			
+			//map.addControl(new GLargeMapControl());
+			//map.addControl(new GMapTypeControl());
+			
+			map.enableScrollWheelZoom();
+			map.addControl(new GMapTypeControl());
+			
+			map.setCenter(new GLatLng(38.8859263, -77.019509), 11); 
+		}
+		function addPoints() {
+		
+			choice = 'all';
+			 																			 
+			newpoints[0] = new Array(38.8859263, -77.019509, 1, 'HOLIDAY INN CAPITOL', '550 C Street S.W. Washington, DC 20024', 'main'); 
+																												
+												
+							
+							newpoints[1] = new Array(38.891334, -77.002346,2, 'Café 59', '409 3rd St SW # 110, Washington D.C., DC', 'Dining'); 
+																							
+												
+							
+							newpoints[2] = new Array(38.8779959, -77.0229301,2, 'Pier 7 Restaurant', '650 Water Street Southwest, Washington D.C., DC', 'Dining'); 
+																							
+												
+							
+							newpoints[3] = new Array(38.8951118, -77.0363658,2, 'The Capital Grille', '601 Pennsylvania Ave, NW, Washington, DC', 'Dining'); 
+																							
+												
+							
+							newpoints[4] = new Array(38.8842206, -77.0246691,2, 'Au Bon Pain', '429 Lenfant Plaza Southwest, Washington D.C., DC', 'Dining'); 
+																							
+												
+							
+							newpoints[5] = new Array(38.8838634, -77.0252591,2, 'American Grill', '480 LEnfant Plaza Southwest, Washington D.C., DC', 'Dining'); 
+																							
+												
+							
+							newpoints[6] = new Array(38.8850219, -77.0056034,2, 'Tortilla Coast', '400 1st St SE, Washington D.C., DC', 'Dining'); 
+																																									
+												
+							
+							newpoints[7] = new Array(38.896978, -77.023344,3, 'International Spy Museum', '800 f st nw, washington dc, 20004', 'Family Activities'); 
+																							
+												
+							
+							newpoints[8] = new Array(38.8728594, -77.0078087,3, 'Nationals Park', '1500 S Capitol Street Southeast Washington, DC 20003-3599', 'Family Activities'); 
+																							
+												
+							
+							newpoints[9] = new Array(38.8929785, -77.0192885,3, 'Newseum', '555 Pennsylvania Avenue Northwest Washington D.C., DC 20001', 'Family Activities'); 
+																							
+												
+							
+							newpoints[10] = new Array(38.8875733, -77.020907,3, 'Air & Space Museum', 'Independence Ave SW, Washington D.C., DC 20597', 'Family Activities'); 
+																																									
+												
+							
+							newpoints[11] = new Array(38.8976777, -77.036517,4, 'White House', '1600 Pennsylvania Avenue, Washington D.C.', 'Attractions'); 
+																							
+												
+							
+							newpoints[12] = new Array(38.9084505, -77.0345659,4, 'Washington Monument', 'Madison Dr NW & 15 St NW, Washington, DC', 'Attractions'); 
+																							
+												
+							
+							newpoints[13] = new Array(38.902558, -77.022947,4, 'US Capitol Building', 'Wash Ave D St SW, Washington, DC 20515', 'Attractions'); 
+																							
+												
+							
+							newpoints[14] = new Array(38.902558, -77.022947,4, 'US Capitol Building', 'Wash Ave D St SW, Washington, DC 20515', 'Attractions'); 
+																							
+												
+							
+							newpoints[15] = new Array(38.8884407, -77.0396374,4, 'WWII Memorial', 'Independence Avenue Southwest and 17th Street Washington D.C., District of Columbia 20006', 'Attractions'); 
+																							
+												
+							
+							newpoints[16] = new Array(38.7118679, -77.0859349,4, 'Mount Vernon', '3200 Mount Vernon Memorial Highway, Mt Vernon, VA 22309', 'Attractions'); 
+																							
+												
+							
+							newpoints[17] = new Array(38.888132, -77.012914,4, 'US Botanic Gardens', '100 Maryland Avenue Southwest, Washington D.C., DC 20001', 'Attractions'); 
+																							
+												
+							
+							newpoints[18] = new Array(44.4929186, -90.7610651,4, 'Martin Luther King, Jr National Memorial', 'TBD', 'Attractions'); 
+																							
+												
+							
+							newpoints[19] = new Array(38.856803, -77.050209,4, 'Pentagon (5 minutes via Metro or 5 miles from Hotel)', '1400 Defense Pentagon, Washington, DC 20301-1400', 'Attractions'); 
+																																									
+												
+							
+							newpoints[20] = new Array(38.8965443, -77.0258392,5, 'Fords Theater', '511 Tenth St, NW, Washington, DC 20004', 'Entertainment'); 
+																							
+												
+							
+							newpoints[21] = new Array(38.8812808, -77.019913,5, 'Arena Stage', '1101 Sixth Street, SW, Washington, DC 20024', 'Entertainment'); 
+																							
+												
+							
+							newpoints[22] = new Array(38.8980294, -77.020909,5, 'Verizon Center', '601 F Street, NW, Washington, DC 20004', 'Entertainment'); 
+																							
+												
+							
+							newpoints[23] = new Array(38.8648267, -77.0597682,5, 'Pentagon City Mall', 'Pentagon City Mall (10 Minutes on Metro / upscale shopping)', 'Entertainment'); 
+																							
+												
+							
+							newpoints[24] = new Array(38.9, -77.06,5, 'Kennedy Center', '2700 F St NW Washington, DC 20566', 'Entertainment'); 
+																							
+												
+							
+							newpoints[25] = new Array(38.885018, -76.996361,5, 'Eastern Market', '225 7th Street Southeast, Washington D.C., DC 20003', 'Entertainment'); 
+																							
+												
+							
+							newpoints[26] = new Array(38.899578, -77.020209,5, 'Chinatown', '746 6th St NW, Washington D.C., DC 20001-3704', 'Entertainment'); 
+																																									
+												
+							
+							newpoints[27] = new Array(38.849297, -77.0415697,6, 'Reagan National Airport', '1 Aviation Circle - Washington, DC 20001', 'Transportation'); 
+																							
+												
+							
+							newpoints[28] = new Array(38.9633178, -77.4587239,6, 'Washington Dulles International Airport (IAD)', '45425 Holiday Drive, Dulles, VA 20166', 'Transportation'); 
+																							
+												
+							
+							newpoints[29] = new Array(39.1796892, -76.6688507,6, 'Baltimore Washington International Aiport (BWI)', '501 Mccormick Dr # J, Glen Burnie, MD 21061-8205', 'Transportation'); 
+																							
+												
+							
+							newpoints[30] = new Array(38.89913, -77.0064028,6, 'Union Station', '2 West /40 Massachusetts Ave., NE', 'Transportation'); 
+																							
+												
+							
+							newpoints[31] = new Array(38.886212, -77.021754,6, 'LEnfant Plaza Metro', '7TH St & MARYLAND AVE SW sb Washington D.C., DC 20024', 'Transportation'); 
+																									
+			
+			
+							
+			for(var i = 0; i < newpoints.length; i++) {
+				var point = new GLatLng(newpoints[i][0],newpoints[i][1]);
+		
+		 		if (choice != 'all') {
+					if (choice == newpoints[i][5] || newpoints[i][5] == 'main') {
+						var oMarker = createMarker(point, newpoints[i][2], newpoints[i][3], newpoints[i][4]);
+						map.addOverlay(oMarker);
+					}
+					else {
+						var oMarker = createMarker(point, newpoints[i][2], newpoints[i][3], newpoints[i][4]);
+						map.removeOverlay(oMarker);
+					}
+				}
+				else {
+					var oMarker = createMarker(point, newpoints[i][2], newpoints[i][3], newpoints[i][4]);
+					map.addOverlay(oMarker);
+				}
+			}
+		}
+		
+		function createMarker(point, num, toName, toAddress) {
+			  
+			var cicons = new Array("image_1.png","mm_20_green.png","mm_20_blue.png", "mm_20_purple.png","mm_20_brown.png","mm_20_yellow.png");
+			var icon = new GIcon();
+			var iconString = cicons[num-1];
+			
+			icon.image = "/extension/neteext/design/holidayinncapitol/images/gmap/"+iconString;
+			icon.shadow = "/design/holidayinncapitol/mm_20_shadow.png"
+			if(icon.image == "/extension/neteext/design/holidayinncapitol/images/gmap/image_1.png")
+				icon.iconSize = new GSize(23,43);
+			else
+			icon.iconSize = new GSize(17,25);
+			icon.iconAnchor = new GPoint(17,25);
+			icon.infoWindowAnchor = new GPoint(5,1);
+		
+			var marker = new GMarker(point, icon);
+			if (point =="(38.8859263, -77.019509)"){	
+				map.addOverlay(marker)
+				marker.openInfoWindowHtml("<div id='popup' style='width:300px;Height:100px;'><form action='http://maps.google.com/maps' method='get' target='_blank'><input type='hidden' name='saddr' id='saddr' value='' /><input type='hidden' name='daddr' id='daddr' value='" + toAddress + "' /><strong>" + toName + "</strong><br>" + toAddress + "<br /><br /><center><input type='submit' value='Directions' /></center></form></div>");
+			}
+			GEvent.addListener(marker, "click", function() {
+
+				if (point =="(38.8859263, -77.019509)"){	
+					map.addOverlay(marker)
+					marker.openInfoWindowHtml("<div id='popup' style='width:300px;Height:100px;'><form action='http://maps.google.com/maps' method='get' target='_blank'><input type='hidden' name='saddr' id='saddr' value='' /><input type='hidden' name='daddr' id='daddr' value='" + toAddress + "' /><strong>" + toName + "</strong><br>" + toAddress + "<br /><br /><center><input type='submit' value='Directions' /></center></form></div>");
+				}else{
+				
+					marker.openInfoWindowHtml("<div id='popup' style='width:300px;Height:100px;'><form action='http://maps.google.com/maps' method='get' target='_blank'><input type='hidden' name='saddr' id='saddr' value='550 C Street S.W. Washington, DC 20024' /><input type='hidden' name='daddr' id='daddr' value='" + toAddress + "' /><strong>" + toName + "</strong><br>" + toAddress + "<br /><br /><center><input type='submit' value='Directions' /></center></form></div>");
+				}
+			});
+				return marker;
+		}
+		
+		function surfto(choice) {
+			map.clearOverlays();
+		
+			for(var i = 0; i < newpoints.length; i++) {
+		 		var point = new GLatLng(newpoints[i][0],newpoints[i][1]);
+				if (choice != 'all') {
+					if (choice == newpoints[i][5] || newpoints[i][5] == 'main') {
+						var oMarker = createMarker(point, newpoints[i][2], newpoints[i][3], newpoints[i][4]);
+						map.addOverlay(oMarker);
+					}
+					else {
+						var oMarker = createMarker(point, newpoints[i][2], newpoints[i][3], newpoints[i][4]);
+						map.removeOverlay(oMarker);
+					}
+				}
+				else {
+					var oMarker = createMarker(point, newpoints[i][2], newpoints[i][3], newpoints[i][4]);
+					map.addOverlay(oMarker);
+				}
+			}
+		}
+		
+		//-->
+		</script>
+	<style>
+		div#map1{
+			border:solid #75A76D 1px;
+			height: 405px;
+		}
+		div#popup {
+		/*background:#82BD7A;
+		border:1px solid #A3B2C9;*/
+		background:#75A76D;
+		border:1px solid #75A76D;
+		margin:0px;
+		padding:7px;		
+		font-family: verdana, Geneva, Arial, Helvetica, sans-serif;
+		color:#ffffff;
+		font-size: 12px;
+		font-weight: normal;
+		text-decoration: none;
+		}
+		select.map{ width:110px;}
+	</style>
+
+<div class="hd-text">
+Directions
+</div>
+<div id="map1"></div>
+<div id='popup'>
+	Select Overlay Type
+	<SELECT NAME="dest" onChange="surfto(this.value)" class="map">
+		<OPTION VALUE="all">Show all</OPTION>
+		<OPTION VALUE="hotel">Hotel Location</OPTION>
+						<OPTION VALUE="Dining">Dining</OPTION>	
+						<OPTION VALUE="Family Activities">Family Activities</OPTION>	
+						<OPTION VALUE="Attractions">Attractions</OPTION>	
+						<OPTION VALUE="Entertainment">Entertainment</OPTION>	
+						<OPTION VALUE="Transportation">Transportation</OPTION>	
+			</SELECT><br /><br />	
+																	<img src="/extension/neteext/design/holidayinncapitol/images/gmap/mm_20_green.png"> Dining
+																		<img src="/extension/neteext/design/holidayinncapitol/images/gmap/mm_20_blue.png"> Family Activities
+																		<img src="/extension/neteext/design/holidayinncapitol/images/gmap/mm_20_purple.png"> Attractions
+																		<img src="/extension/neteext/design/holidayinncapitol/images/gmap/mm_20_brown.png"> Entertainment
+																		<img src="/extension/neteext/design/holidayinncapitol/images/gmap/mm_20_yellow.png"> Transportation
+							
+	<br>
+</div>
+<a name="eztoc1028_1" id="eztoc1028_1"></a><h2>The Best Location Among Downtown Washington DC Holiday Inn Hotels</h2><p>Stay in the heart of Washington DC's monumental downtown area, and enjoy the <b>Holiday Inn Capitol - Washington DC.</b>
+&nbsp;Feel the pulse of this great city as soon as you step out the door of our DC Holiday Inn. Walk a few blocks to marvel at the treasures of the National Gallery of Art, the thrills of the Air &amp; Space Museum, and the pageantry of the National Museum of the American Indian. Or walk to the nearby L’Enfant Plaza Metro Station, hop on a train, and visit the National Zoo or explore the trendy Adams-Morgan and DuPont Circle neighborhoods. Our 							
+	<a href="/" title="convenient hotel" target="_self">convenient hotel</a>&nbsp;makes a great home-away-from-home, whether for business or leisure. Stay at this full-service downtown Washington DC Holiday Inn to enjoy a premier setting: </p>
+
+<ul>
+
+<li>Minutes from popular attractions, in the heart of Washington, DC</li>
+
+<li>One block from the excitement of the National Air &amp; Space Museum</li>
+
+<li>Short walk from the Smithsonian and US Capitol</li>
+
+<li>One block from the L'Enfant Plaza Metro Station</li>
+
+<li>Less than five miles from Ronald Reagan Washington National Airport (DCA)</li>
+
+</ul>
+<p>							
+	<a href="/Explore-D.C" title="Click here for more Attractions and Businesses near our Capitol Hill Hotel" target="_self">Click here for more Attractions &amp; Businesses near our Capitol Hill Hotel.</a></p>
+<a name="eztoc1028_1_1" id="eztoc1028_1_1"></a><h3>Driving Directions To Our DC Holiday Inn</h3><p><b>From the North (I-95 South, Baltimore, Philadelphia, New York):</b>
+&nbsp;Take I-95 South through the Baltimore area. Continue until you see signs for the Baltimore-Washington Parkway. Take the Baltimore-Washington Parkway to &quot;Washington Route 50 West&quot; exit. Continue on Route 50 (New York Avenue) until you come to I-395 South (about 4 miles). Turn left onto I-395 South, go about 1.5 miles to 6th Street SW exit. Make a hard right turn onto 6th Street SW. Continue on 6th Street SW to the 3rd light, just past an overhead bridge. The hotel is on the corner of 6th &amp; C Street SW. The hotel's main entrance is on C Street SW. </p>
+<p><b>From the Northwest (I-70 East, I-270 South, Frederick, MD, George Washington Parkway):</b>
+&nbsp;Follow signs to the Capitol Beltway South (I-495), take I-495 South toward Virginia. Follow I-495 South toward Virginia for approx 4 miles. Exit onto the George Washington Memorial Pkwy, and continue on the Parkway to I-395 North. I-395 North will put you on the 14th Street bridge. Move immediately to one of the two left lanes on the bridge (US Route 1 North). Follow US-1 North to the second traffic light after the bridge. Turn right onto Independence Avenue SW to 6th Street SW. Turn right onto 6th Street SW to C Street SW, turn left onto C Street SW. The hotel is on the corner of 6th &amp; C Street SW. Hotel's main entrance is on C Street SW. </p>
+<p><b>From the West (I-66 East, Virginia):</b>
+&nbsp;Take I-66 East toward Washington, DC. Cross the Theodore Roosevelt Bridge. I-66 East will turn into Constitution Avenue NW. Take Constitution Avenue NW to 7th Street NW. Turn right onto 7th Street NW to Independence Avenue SW. Turn left onto Independence Avenue SW to 6th Street SW. Turn right onto 6th Street SW to C Street SW, turn left onto C Street SW. The hotel is on the corner of 6th &amp; C Street SW. The hotel's main entrance is on C Street SW.</p>
+<p><b>From the South (I-95 North, Richmond):</b>
+&nbsp;Take I-95 North to I-395 North Washington, DC. Follow I-395 North to US Route 1 North (left 2 lanes on the bridge over Potomac). Follow US-1 North to the second traffic light after the bridge. Turn right onto Independence Avenue SW to 6th Street SW. Turn right onto 6th Street SW to C Street SW, turn left onto C Street SW. The hotel is on the corner of 6th &amp; C Street, SW. The hotel's main entrance is on C Street SW. </p>
+<p><b>From the East (I-95 North, Richmond):</b>
+&nbsp;Take Route 50 East (New York Avenue) to I-395 South. Turn left on to I-395 South, go about 1.5 miles to 6th Street SW exit. Make a hard right turn onto 6th Street SW. Continue on 6th Street SW to the 3rd light, just past an overhead bridge. The hotel is on the corner of 6th and C Street SW. The Hotel's main entrance is on C Street SW</p>
+<p><b>From National Airport:</b>
+&nbsp;Follow directions &quot;From the South&quot; above. </p>
+<p><b>From Dulles International Airport:</b>
+&nbsp;Follow directions &quot;From the West(I-66)&quot; above.</p>
+<p><b>Overnight Parking:</b>
+&nbsp;$30.00 per night, plus 12% tax </p>
+<p>							
+	<a href="/Explore-D.C/Area-Events" title="Click here for Exciting Washington DC Events and Fun Things To Do In DC" target="_self">Click here for Exciting Washington DC Events &amp; Fun Things To Do In DC. </a></p>
+<p>The Holiday Inn Capitol - Washington DC blends the convenient location of a downtown Washington DC hotel with the quality and service you'd expect from one of America's favorite lodging brands. Book your downtown Washington DC Holiday Inn hotel reservations online today for our 		
+													
+	<a href=http://www.holidayinn.com/redirect?path=asearch&hotelCode=wassm&_IATAno=99502222 name="omni_reservation_text" title="Best Price Guarantee" target="_blank"><b>Best Price Guarantee</b>
+<b>. </b>
+</a></p>
+
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:2:{i:0;a:4:{s:4:"text";s:4:"Home";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:10:"Directions";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:3:"147";}}s:10:"title_path";a:2:{i:0;a:4:{s:4:"text";s:4:"Home";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:3:{s:4:"text";s:10:"Directions";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:3:"147";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:18:{s:9:"object_id";s:3:"147";s:7:"node_id";s:3:"147";s:14:"parent_node_id";s:1:"2";s:8:"class_id";s:2:"26";s:16:"class_identifier";s:13:"google_mashup";s:9:"remote_id";s:32:"b3857927c2a064e6191a5a68c1026f41";s:14:"node_remote_id";s:32:"ecef5a08c2a7396702483d461f40b218";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"2";s:9:"url_alias";s:10:"Directions";s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:2:"16";s:23:"parent_class_identifier";s:9:"home_page";}s:13:"template_list";a:9:{i:0;s:80:"extension/neteext/design/holidayinncapitol/override/templates/full/full_gmap.tpl";i:1;s:60:"design/standard/templates/content/datatype/view/ezstring.tpl";i:2;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:3;s:68:"design/standard/templates/content/datatype/view/ezxmltags/header.tpl";i:4;s:68:"design/standard/templates/content/datatype/view/ezxmltags/strong.tpl";i:5;s:93:"extension/neteext/design/holidayinncapitol/templates/content/datatype/view/ezxmltags/link.tpl";i:6;s:71:"design/standard/templates/content/datatype/view/ezxmltags/paragraph.tpl";i:7;s:64:"design/standard/templates/content/datatype/view/ezxmltags/li.tpl";i:12;s:64:"design/standard/templates/content/datatype/view/ezxmltags/ul.tpl";}s:9:"cache_ttl";s:1:"0";s:8:"no_cache";b:1;}

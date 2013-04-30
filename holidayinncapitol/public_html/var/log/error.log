@@ -1,0 +1,340 @@
+[ Sep 08 2011 07:00:58 ] [127.0.0.1] eZTemplate:ElementParser::variableEndPos:
+parser error @ extension/neteext/design/admin2/templates/dashboard/home_image.tpl\[1]
+No variable name found, this is most likely a bug in the template parser.
+[ Sep 08 2011 07:01:09 ] [127.0.0.1] eZTemplate:ElementParser::variableEndPos:
+parser error @ extension/neteext/design/admin2/templates/dashboard/home_image.tpl\[1]
+No variable name found, this is most likely a bug in the template parser.
+[ Sep 08 2011 08:27:28 ] [127.0.0.1] index:
+Undefined module: thank-you
+[ Sep 08 2011 08:27:28 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /thank-you
+[ Sep 08 2011 08:27:51 ] [127.0.0.1] index:
+Undefined module: email-thank-you
+[ Sep 08 2011 08:27:51 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /email-thank-you
+[ Sep 08 2011 08:28:04 ] [127.0.0.1] index:
+Undefined module: thankyou
+[ Sep 08 2011 08:28:04 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /thankyou
+[ Oct 19 2011 13:06:19 ] [127.0.0.1] index:
+Undefined module: local_attractions
+[ Oct 19 2011 13:06:19 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /local_attractions/monuments.cfm
+[ Nov 28 2011 19:21:30 ] [127.0.0.1] index:
+Undefined module: design
+[ Nov 28 2011 19:21:30 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Nov 29 2011 15:45:59 ] [127.0.0.1] index:
+Undefined module: design
+[ Nov 29 2011 15:45:59 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Jan 14 2012 04:31:53 ] [127.0.0.1] index:
+Undefined module: contact_form
+[ Jan 14 2012 04:31:54 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /contact_form/contact_form.cfm
+[ Aug 14 2012 21:32:39 ] [127.0.0.1] index:
+Undefined module: design
+[ Aug 14 2012 21:32:40 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Aug 14 2012 21:47:10 ] [127.0.0.1] index:
+Undefined module: local_attractions
+[ Aug 14 2012 21:47:10 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /local_attractions/museums.cfm
+[ Aug 14 2012 22:15:00 ] [127.0.0.1] index:
+Undefined module: design
+[ Aug 14 2012 22:15:00 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Aug 14 2012 22:34:41 ] [127.0.0.1] eZPHPCreator::restore:
+Variable 'TranslationInfo' is not present in cache 'var/plain_site/cache/translation/be7dcaa646eb4fb2cb4828d97de328b1/eng-US/c289b3ed89e7dee8a3a352a77b308232.php'
+[ Aug 14 2012 22:34:41 ] [127.0.0.1] eZPHPCreator::restore:
+Variable 'TranslationRoot' is not present in cache 'var/plain_site/cache/translation/be7dcaa646eb4fb2cb4828d97de328b1/eng-US/c289b3ed89e7dee8a3a352a77b308232.php'
+[ Aug 14 2012 22:34:41 ] [127.0.0.1] eZPHPCreator::restore:
+Variable 'eZTranslationCacheCodeDate' is not present in cache 'var/plain_site/cache/translation/be7dcaa646eb4fb2cb4828d97de328b1/eng-US/c289b3ed89e7dee8a3a352a77b308232.php'
+[ Aug 14 2012 22:34:44 ] [127.0.0.1] index:
+Undefined module: design
+[ Aug 14 2012 22:34:44 ] [127.0.0.1] eZPHPCreator::restore:
+Variable 'TranslationInfo' is not present in cache 'var/plain_site/cache/translation/be7dcaa646eb4fb2cb4828d97de328b1/eng-US/c289b3ed89e7dee8a3a352a77b308232.php'
+[ Aug 14 2012 22:34:44 ] [127.0.0.1] eZPHPCreator::restore:
+Variable 'TranslationRoot' is not present in cache 'var/plain_site/cache/translation/be7dcaa646eb4fb2cb4828d97de328b1/eng-US/c289b3ed89e7dee8a3a352a77b308232.php'
+[ Aug 14 2012 22:34:44 ] [127.0.0.1] eZPHPCreator::restore:
+Variable 'eZTranslationCacheCodeDate' is not present in cache 'var/plain_site/cache/translation/be7dcaa646eb4fb2cb4828d97de328b1/eng-US/c289b3ed89e7dee8a3a352a77b308232.php'
+[ Aug 14 2012 22:34:44 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Aug 14 2012 22:37:36 ] [127.0.0.1] eZPHPCreator::restore:
+Variable 'TranslationInfo' is not present in cache 'var/plain_site/cache/translation/be7dcaa646eb4fb2cb4828d97de328b1/eng-US/c289b3ed89e7dee8a3a352a77b308232.php'
+[ Aug 14 2012 22:37:36 ] [12[ Aug 15 2012 02:57:15 ] [127.0.0.1] eZPHPCreator::restore:
+Variable 'TranslationInfo' is not present in cache 'var/plain_site/cache/translation/be7dcaa646eb4fb2cb4828d97de328b1/eng-US/c289b3ed89e7dee8a3a352a77b308232.php'
+[ Aug 15 2012 02:57:15 ] [127.0.0.1] eZPHPCreator::restore:
+Variable 'TranslationRoot' is not present in cache 'var/plain_site/cache/translation/be7dcaa646eb4fb2cb4828d97de328b1/eng-US/c289b3ed89e7dee8a3a352a77b308232.php'
+[ Aug 15 2012 02:57:15 ] [127.0.0.1] eZPHPCreator::restore:
+Variable 'eZTranslationCacheCodeDate' is not present in cache 'var/plain_site/cache/translation/be7dcaa646eb4fb2cb4828d97de328b1/eng-US/c289b3ed89e7dee8a3a352a77b308232.php'
+[ Aug 15 2012 04:55:19 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /amenities/
+[ Aug 15 2012 04:55:19 ] [127.0.0.1] eZTemplateCompiler::executeCompilation:
+Failed executing compiled template 'var/plain_site/cache/template/compiled/4-96e966af3e90df186030a14a93eb286c.php'
+[ Aug 15 2012 05:57:05 ] [127.0.0.1] index:
+Undefined module: design
+[ Aug 15 2012 05:57:05 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Aug 15 2012 06:08:40 ] [127.0.0.1] index:
+Undefined module: design
+[ Aug 15 2012 06:08:40 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Aug 15 2012 06:16:50 ] [127.0.0.1] eZTemplate:let:
+parser error @ extension/neteext/design/holidayinncapitol/templates/content/collectedinfo/contact_form.tpl:7
+Empty variable name at [)]
+[ Aug 15 2012 06:24:00 ] [127.0.0.1] index:
+Undefined module: design
+[ Aug 15 2012 06:24:00 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Aug 15 2012 06:44:07 ] [127.0.0.1] index:
+Undefined module: weddings
+[ Aug 15 2012 06:44:07 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /weddings/index.cfm?src=ppc_google_wedding
+[ Aug 15 2012 06:57:17 ] [127.0.0.1] index:
+Undefined module: virtual_tour
+[ Aug 15 2012 06:57:18 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /virtual_tour/
+[ Aug 15 2012 07:16:56 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /meetings
+[ Aug 15 2012 07:16:56 ] [127.0.0.1] eZTemplateCompiler::executeCompilation:
+Failed executing compiled template 'var/plain_site/cache/template/compiled/4-96e966af3e90df186030a14a93eb286c.php'
+[ Aug 15 2012 07:31:09 ] [127.0.0.1] index:
+Undefined module: images
+[ Aug 15 2012 07:31:11 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /images/holiday_inn_logo.gif
+[ Aug 15 2012 07:49:33 ] [127.0.0.1] index:
+Undefined module: apple-touch-icon-precomposed.png
+[ Aug 15 2012 07:49:33 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /apple-touch-icon-precomposed.png
+[ Aug 15 2012 09:50:20 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/
+[ Aug 15 2012 09:50:20 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/
+[ Aug 15 2012 09:50:20 ] [127.0.0.1] eZTemplateCompiler::executeCompilation:
+Failed executing compiled template 'var/plain_site/cache/template/compiled/4-96e966af3e90df186030a14a93eb286c.php'
+[ Aug 15 2012 09:50:20 ] [127.0.0.1] eZTemplateCompiler::executeCompilation:
+Failed executing compiled template 'var/plain_site/cache/template/compiled/4-96e966af3e90df186030a14a93eb286c.php'
+[ Aug 15 2012 09:50:23 ] [127.0.0.1] eZDBFileHandlerMysqlBackend::_fetch:
+Cannot write to 'var/plain_site/cache/template-block/2/9/6/29659228909703tmp.cache' while fetching file.
+[ Aug 15 2012 09:50:53 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/
+[ Aug 15 2012 09:50:53 ] [127.0.0.1] eZTemplateCompiler::executeCompilation:
+Failed executing compiled template 'var/plain_site/cache/template/compiled/4-96e966af3e90df186030a14a93eb286c.php'
+[ Aug 15 2012 10:03:25 ] [127.0.0.1] index:
+Undefined module: design
+[ Aug 15 2012 10:03:25 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Aug 15 2012 10:24:17 ] [127.0.0.1] index:
+Undefined module: design
+[ Aug 15 2012 10:24:17 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Oct 19 2012 13:53:37 ] [127.0.0.1] eZINI:
+Couldn't create cache directory var/cache/ini/, perhaps wrong permissions
+[ Oct 19 2012 13:53:37 ] [127.0.0.1] eZINI:
+Couldn't create cache directory var/cache/ini/, perhaps wrong permissions
+[ Oct 19 2012 16:40:41 ] [127.0.0.1] index:
+Undefined module: design
+[ Oct 19 2012 16:40:50 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Oct 19 2012 16:52:51 ] [127.0.0.1] index:
+Undefined module: dining
+[ Oct 19 2012 16:52:57 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/documents/21stAmendmentBarandGrillMenuSummer2010.pdf
+[ Oct 21 2012 20:26:34 ] [127.0.0.1] index:
+Undefined module: design
+[ Oct 21 2012 20:26:35 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Nov 05 2012 19:57:56 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Nov 05 2012 19:57:56 ] Unexpected error, the message was : Unable to connect to the database server '172.20.0.133' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Nov 05 2012 19:58:10 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Nov 05 2012 19:58:10 ] Unexpected error, the message was : Unable to connect to the database server '172.20.0.133' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Nov 08 2012 10:57:26 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining
+[ Nov 08 2012 11:31:41 ] [127.0.0.1] index:
+Undefined module: dining
+[ Nov 08 2012 11:31:41 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/documents/21stAmendmentBarandGrillMenuSummer2010.pdf
+[ Nov 08 2012 15:20:30 ] [127.0.0.1] index:
+Undefined module: design
+[ Nov 08 2012 15:20:30 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Nov 08 2012 15:39:11 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/
+[ Nov 08 2012 15:52:53 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining
+[ Nov 20 2012 13:38:50 ] [127.0.0.1] index:
+Undefined module: design
+[ Nov 20 2012 13:38:50 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Nov 20 2012 14:01:52 ] [127.0.0.1] index:
+Undefined module: dining
+[ Nov 20 2012 14:01:53 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/documents/21stAmendmentBarandGrillMenuSummer2010.pdf
+[ Nov 20 2012 14:19:02 ] [127.0.0.1] index:
+Undefined module: design
+[ Nov 20 2012 14:19:02 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Nov 20 2012 15:33:26 ] [127.0.0.1] index:
+Undefined module: area_events
+[ Nov 20 2012 15:33:26 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /area_events/images/point.gif
+[ Nov 20 2012 15:44:01 ] [127.0.0.1] index:
+Undefined module: design
+[ Nov 20 2012 15:44:01 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Nov 20 2012 15:55:34 ] [127.0.0.1] index:
+Undefined module: location_and_directions
+[ Nov 20 2012 15:55:34 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /location_and_directions
+[ Nov 20 2012 15:55:57 ] [127.0.0.1] index:
+Undefined module: design
+[ Nov 20 2012 15:55:57 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Nov 20 2012 15:59:56 ] [127.0.0.1] index:
+Undefined module: location_and_directions
+[ Nov 20 2012 15:59:56 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /location_and_directions
+[ Nov 20 2012 15:59:58 ] [127.0.0.1] index:
+Undefined module: location_and_directions
+[ Nov 20 2012 15:59:58 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /location_and_directions
+[ Nov 20 2012 16:14:57 ] [127.0.0.1] index:
+Undefined module: design
+[ Nov 20 2012 16:14:57 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Nov 20 2012 16:16:12 ] [127.0.0.1] index:
+Undefined module: contact_form
+[ Nov 20 2012 16:16:12 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /contact_form/
+[ Nov 26 2012 08:57:29 ] [127.0.0.1] eZMySQLDB:
+Query error: Lock wait timeout exceeded; try restarting transaction. Query: UPDATE ezsession SET expiration_time='1354200997', data='eZUserLoggedInID|i:10;eZUserInfoCache_Timestamp|i:1353941530;eZUserInfoCache|a:1:{i:10;a:5:{s:16:\"contentobject_id\";s:2:\"10\";s:5:\"login\";s:9:\"anonymous\";s:5:\"email\";s:12:\"nospam@ez.no\";s:13:\"password_hash\";s:32:\"4e6f6184135228ccd45f8233d72a0363\";s:18:\"password_hash_type\";s:1:\"2\";}}AccessArray|a:2:{s:7:\"content\";a:2:{s:4:\"read\";a:2:{s:5:\"p_332\";a:1:{s:7:\"Section\";a:1:{i:0;s:1:\"1\";}}s:5:\"p_335\";a:1:{s:7:\"Section\";a:1:{i:0;s:1:\"3\";}}}s:3:\"pdf\";a:1:{s:5:\"p_333\";a:1:{s:7:\"Section\";a:1:{i:0;s:1:\"1\";}}}}s:4:\"user\";a:1:{s:5:\"login\";a:1:{s:5:\"p_334\";a:1:{s:10:\"SiteAccess\";a:1:{i:0;s:10:\"1833031301\";}}}}}AccessArrayTimestamp|i:1353941530;eZRoleIDList_Timestamp|i:1353941530;eZUserGroupsCache_Timestamp|i:1353941530;eZUserGroupsCache|a:2:{i:0;s:2:\"42\";i:1;s:1:\"4\";}eZRoleIDList|a:1:{i:0;s:1:\"1\";}eZRoleLimitationValueList_Timestamp|i:1353941530;eZRoleLimitationValueList|a:1:{i:0;s:0:\"\";}eZUserDiscountRulesTimestamp|i:1353941530;eZUserDiscountRules10|a:0:{}eZGlobalSection|a:1:{s:2:\"id\";s:1:\"1\";}LastAccessesURI|s:12:\"/Guest-Rooms\";LastAccessedModifyingURI|s:12:\"/Guest-Rooms\";', user_id='10', user_hash='a2e4822a98337283e39f7b60acf85ec9' WHERE session_key='rcnrvs3qh4mnifdo26unsffuk1'
+[ Jan 23 2013 08:10:55 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Jan 23 2013 08:10:55 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Jan 23 2013 08:14:35 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Jan 23 2013 08:14:35 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Jan 24 2013 17:07:11 ] [127.0.0.1] index:
+Undefined module: dining
+[ Jan 24 2013 17:07:12 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/documents/21stAmendmentBarandGrillMenuSummer2010.pdf
+[ Jan 24 2013 17:09:21 ] [127.0.0.1] eZDBFileHandlerMysqlBackend::_startCacheGeneration:
+Unexpected error #1205 when trying to start cache generation on var/plain_site/cache/template-block/5/6/0/560642264.cache (Lock wait timeout exceeded; try restarting transaction)
+[ Feb 03 2013 14:11:17 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Feb 03 2013 14:11:17 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Feb 03 2013 14:12:18 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Feb 03 2013 14:12:18 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Feb 05 2013 00:31:07 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Feb 05 2013 00:31:07 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Feb 05 2013 00:33:11 ] [127.0.0.1] index:
+Undefined module: dining
+[ Feb 05 2013 00:33:11 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/documents/21stAmendmentBarandGrillMenuSummer2010.pdf
+[ Feb 05 2013 00:34:29 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Feb 05 2013 00:34:29 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Feb 05 2013 11:12:13 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Feb 05 2013 11:12:13 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Feb 05 2013 11:12:16 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Feb 05 2013 11:12:16 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Feb 05 2013 11:12:24 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Feb 05 2013 11:12:24 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Feb 05 2013 11:15:52 ] [127.0.0.1] index:
+Undefined module: dining
+[ Feb 05 2013 11:15:52 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/documents/21stAmendmentBarandGrillMenuSummer2010.pdf
+[ Feb 05 2013 11:16:46 ] [127.0.0.1] index:
+Undefined module: dining
+[ Feb 05 2013 11:16:46 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/documents/21stAmendmentBarandGrillMenuSummer2010.pdf
+[ Feb 18 2013 15:03:41 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Feb 18 2013 15:03:41 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Feb 18 2013 15:03:42 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Feb 18 2013 15:03:42 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Feb 18 2013 15:07:50 ] [127.0.0.1] eZDBFileHandlerMysqlBackend::_startCacheGeneration:
+Unexpected error #1205 when trying to start cache generation on var/plain_site/cache/template-block/2/2/6/2265493549.cache (Lock wait timeout exceeded; try restarting transaction)
+[ Mar 11 2013 14:57:43 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/
+[ Mar 18 2013 08:58:02 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Mar 18 2013 08:58:02 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Mar 25 2013 10:26:07 ] [127.0.0.1] index:
+Undefined module: design
+[ Mar 25 2013 10:26:07 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Mar 25 2013 14:24:50 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Mar 25 2013 14:24:50 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Mar 25 2013 14:24:50 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Mar 25 2013 14:24:50 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Mar 28 2013 07:21:07 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Mar 28 2013 07:21:07 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Mar 28 2013 07:21:39 ] [127.0.0.1] index:
+Undefined module: dining
+[ Mar 28 2013 07:21:39 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/documents/21stAmendmentBarandGrillMenuSummer2010.pdf
+[ Mar 28 2013 07:22:32 ] [127.0.0.1] index:
+Undefined module: dining
+[ Mar 28 2013 07:22:32 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /dining/documents/21stAmendmentBarandGrillMenuSummer2010.pdf
+[ Mar 28 2013 07:23:45 ] [127.0.0.1] _checkCacheGenerationTimeout( var/plain_site/cache/template-block/4/2/3/4232628016.cache.generating, 1364473299 ):
+Failed to execute SQL for function:
+1205: Lock wait timeout exceeded; try restarting transaction
+[ Apr 01 2013 12:53:10 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Apr 01 2013 12:53:10 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Apr 01 2013 12:53:49 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Apr 01 2013 12:53:49 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Apr 21 2013 18:14:45 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Apr 21 2013 18:14:45 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Apr 21 2013 18:14:53 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Apr 21 2013 18:14:53 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Apr 21 2013 18:15:46 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Apr 21 2013 18:15:46 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164
+[ Apr 24 2013 17:43:05 ] [127.0.0.1] index:
+Undefined module: design
+[ Apr 24 2013 17:43:05 ] [127.0.0.1] error/view.php:
+Error ocurred using URI: /design/holidayinncapitol/mm_20_shadow.png
+[ Apr 25 2013 15:43:56 ] [127.0.0.1] eZMySQLDB:
+Connection error: Couldn't connect to database. Please try again later or inform the system administrator.
+Too many connections
+[ Apr 25 2013 15:43:58 ] Unexpected error, the message was : Unable to connect to the database server 'tig.mysql.master' in /var/sdb/www/holidayinncapitol/public_html/lib/ezdb/classes/ezmysqldb.php on line 164

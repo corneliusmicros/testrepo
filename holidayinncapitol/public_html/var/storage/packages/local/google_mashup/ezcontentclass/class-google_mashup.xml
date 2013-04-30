@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="false" sort-field="path" sort-order="1">
+  <serialized-name-list>a:2:{s:6:"eng-US";s:13:"Google Mashup";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <identifier>google_mashup</identifier>
+  <remote-id>348620974424718cd23bfafce03debf8</remote-id>
+  <object-name-pattern>&lt;name&gt;</object-name-pattern>
+  <url-alias-pattern></url-alias-pattern>
+  <remote>
+    <site-url>http://192.168.0.11/ez_build/BrookfieldBestWestern/public_html/index.php/</site-url>
+    <url>http://192.168.0.11/ez_build/BrookfieldBestWestern/public_html/index.php/class/view/20</url>
+    <groups>
+      <group id="1" name="Content"/>
+    </groups>
+    <id>20</id>
+    <created>1303298891</created>
+    <modified>1303298891</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>228</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>name</identifier>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>229</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:12:"Header Image";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>header_image</identifier>
+      <placement>2</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>230</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Text Header";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>text_header</identifier>
+      <placement>3</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>231</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:4:"Body";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>body</identifier>
+      <placement>4</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>232</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:15:"Navigation Area";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>navigation_area</identifier>
+      <placement>5</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>233</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:10:"Hotel Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>hotel_name</identifier>
+      <placement>6</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>234</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:13:"Hotel Address";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>hotel_address</identifier>
+      <placement>7</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezselection" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>235</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:8:"Map Type";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>map_type</identifier>
+      <placement>8</placement>
+      <datatype-parameters>
+        <options>
+          <option id="0" name="G_NORMAL_MAP"/>
+          <option id="1" name="G_SATELLITE_TYPE"/>
+          <option id="2" name="G_HYBRID_TYPE"/>
+        </options>
+        <is-multiselect>0</is-multiselect>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>236</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:10:"Zoom Level";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>zoom_level</identifier>
+      <placement>9</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>237</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:8:"Latitude";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>latitude</identifier>
+      <placement>10</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>238</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Longitude";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>longitude</identifier>
+      <placement>11</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>239</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:10:"Page Title";s:16:"always-available";s:6:"eng-US";s:6:"eng-GB";s:10:"Page Title";}</serialized-name-list>
+      <identifier>head_title</identifier>
+      <placement>12</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>240</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:13:"Meta Keywords";s:16:"always-available";s:6:"eng-US";s:6:"eng-GB";s:13:"Meta Keywords";}</serialized-name-list>
+      <identifier>meta_keywords</identifier>
+      <placement>13</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>241</id>
+      </remote>
+      <serialized-name-list>a:3:{s:6:"eng-US";s:16:"Meta Description";s:16:"always-available";s:6:"eng-US";s:6:"eng-GB";s:16:"Meta Description";}</serialized-name-list>
+      <identifier>meta_description</identifier>
+      <placement>14</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

@@ -1,0 +1,49 @@
+<div id="footer-area">
+		<div id="footer-left">				
+			<ul>
+				<li><h2>follow us on</h2></li>
+				<li><a href="http://www.facebook.com/pages/Holiday-Inn-Capitol-Catering/131735300177583" name=""  target="_blank"  class="facebook" title="Facebook">Facebook</a></li>
+				<li><!-- AddThis Button BEGIN --><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=xa-4de4b68468eef182"><img src="/extension/neteext/design/holidayinncapitol/images/bt-share-off.gif" width="69" height="14" alt="Share This" style="margin:1px 0px 0px 6px;" onmouseover='add.src="/extension/neteext/design/holidayinncapitol/images/bt-share-on.gif"' onmouseout='add.src="/extension/neteext/design/holidayinncapitol/images/bt-share-off.gif"' name="add" id="add"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4de4b68468eef182"></script><!-- AddThis Button END --></li>
+			</ul>
+		</div>
+		<div id="footer-content">
+			<ul>
+				<li><a href="/" title="home">Home</a></li>
+				<li>|</li>
+																															<li><a href="http://www.holidayinn.com/redirect?path=asearch&hotelCode=wassm&_IATAno=99502222" title="Reservations" target="_blank" name="omni_reservation_footer">Reservations</a></li>
+																<li>|</li>																							<li><a href="/Special-Offers" title="Special Offers">Special Offers</a></li>
+																<li>|</li>																							<li><a href="/Guest-Rooms" title="Guest Rooms">Guest Rooms</a></li>
+																<li>|</li>																							<li><a href="/Amenities" title="Amenities">Amenities</a></li>
+																<li>|</li>																							<li><a href="/Dining" title="Dining">Dining</a></li>
+																<li>|</li>																							<li><a href="/Explore-D.C" title="Explore D.C.">Explore D.C.</a></li>
+																<li>|</li>																							<li><a href="/Meetings" title="Meetings">Meetings</a></li>
+																<li>|</li>																							<li><a href="/Weddings-and-Events" title="Weddings and Events">Weddings and Events</a></li>
+																<li>|</li>																							<li><a href="/Photos" title="Photos">Photos</a></li>
+																<li>|</li>																							<li><a href="/Directions" title="Directions">Directions</a></li>
+																<li>|</li>																							<li><a href="http://www.ichotelsgroup.com/h/d/pc/1/en/home?&stopredirect=true" title="Priority Club" target="_blank" >Priority Club</a></li>
+																<li>|</li>																							<li><a href="/Contact-Us" title="Contact Us">Contact Us</a></li>
+																<li>|</li>																							<li><a href="/Site-Map" title="Site Map">Site Map</a></li>
+																<li>|</li>																							<li><a href="http://www.holidayinn.com/hotels/us/en/global/customer_care/privacy_statement" title="Privacy Policy" target="_blank" >Privacy Policy</a></li>
+																<li>|</li>																							<li><a href="http://www.holidayinn.com/hotels/us/en/global/2/customer_care/tc#ContentOnly" title="Terms and Conditions" target="_blank" >Terms &amp; Conditions</a></li>
+																<li>|</li>																							<li><a href="/Testimonials" title="Testimonials">Testimonials</a></li>
+																			</ul>
+			<div class="footer_line"></div>
+			<div id="copyright">
+				<p>&copy;2013 Holiday Inn. All rights reserved. <a href="http://www.microsecommerce.com target="_blank" title="Hotel Internet Marketing" class="copy">Hotel Internet Marketing</a> by MICROS eCommerce</p>
+			</div>
+		</div>		
+	</div>			
+
+<script type="text/javascript" language="JavaScript">var gpgName="Home - Dining";</script>
+ <script src="/extension/neteext/design/holidayinncapitol/javascript/s-code.js" type="text/javascript" language="JavaScript"></script>
+<script type="text/javascript"> 
+// Fix Omniture conflict 
+(function() { 
+   var old = s.ot; 
+   s.ot = function(el) { 
+       return el.tagUrn ? '' : old(el); 
+   }; 
+
+})(); 
+
+</script>

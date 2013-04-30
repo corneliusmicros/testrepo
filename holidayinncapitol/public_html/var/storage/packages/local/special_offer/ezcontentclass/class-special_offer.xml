@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="true" sort-field="path" sort-order="1">
+  <serialized-name-list>a:2:{s:6:"eng-US";s:13:"Special Offer";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <identifier>special_offer</identifier>
+  <remote-id>4051423c03fa4bb237f040dec6f3b5b0</remote-id>
+  <object-name-pattern>&lt;offer_name&gt;</object-name-pattern>
+  <url-alias-pattern></url-alias-pattern>
+  <remote>
+    <site-url>http://morrisonclark.nete.com/index.php/</site-url>
+    <url>http://morrisonclark.nete.com/index.php/class/view/18</url>
+    <groups>
+      <group id="1" name="Content"/>
+    </groups>
+    <id>18</id>
+    <created>1297862922</created>
+    <modified>1299480792</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>194</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:10:"Offer Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>offer_name</identifier>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>195</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Anchor Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>anchor_name</identifier>
+      <placement>2</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>196</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Offer Image";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>offer_image</identifier>
+      <placement>3</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">0</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>197</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:11:"Description";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>description</identifier>
+      <placement>4</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezxmltext" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>198</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:19:"Description details";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>description_details</identifier>
+      <placement>5</placement>
+      <datatype-parameters>
+        <text-column-count>10</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>199</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:29:"Offer Check Availability Link";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>offer_check_availability_link</identifier>
+      <placement>6</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string>#</default-string>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>200</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:17:"View Details Text";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>view_details_text</identifier>
+      <placement>7</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string>View Details</default-string>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>201</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:17:"Hide Details Text";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>hide_details_text</identifier>
+      <placement>8</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string>Hide Details</default-string>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>918</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:22:"Show View/Hide Details";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>show_view_hide_details</identifier>
+      <placement>9</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>203</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:18:"Check Availability";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>check_availability</identifier>
+      <placement>10</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string>Check Availability</default-string>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezboolean" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>627</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:23:"Show Check Availability";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>show_check_availability</identifier>
+      <placement>11</placement>
+      <datatype-parameters>
+        <default-value is-set="false"/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>940</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:13:"Omniture Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>omniture_name</identifier>
+      <placement>12</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

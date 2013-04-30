@@ -1,0 +1,120 @@
+<VirtualHost *:8000>
+    DocumentRoot /var/www/holidayinncapitol/public_html
+    ServerName hicapitoldc.tiggdev.com
+    ServerAlias admin.hicapitoldc.tiggdev.com
+
+    ServerAlias hicapitoldc.com www.hicapitoldc.com admin.hicapitoldc.com
+    ServerAdmin root@localhost
+
+<Directory "/var/www/holidayinncapitol/public_html">
+       Options FollowSymLinks Indexes ExecCGI
+       AllowOverride None
+       Allow from all
+</Directory>
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+	RewriteCond %{HTTP_HOST} !^www.hicapitoldc.com$ [NC]
+	RewriteCond %{HTTP_HOST} !^admin.hicapitoldc.com$
+       RewriteRule .? http://www.hicapitoldc.com%{REQUEST_URI} [R=301,L] 
+
+# 301 Redirections
+RewriteRule	http://www.hicapitoldc.com/	http://www.hicapitoldc.com/	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/virtual_tour/	http://www.hicapitoldc.com/Photos	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/popup.cfm	http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash [R=301,L]
+RewriteRule	http://www.hicapitoldc.com/local_attractions/	http://www.hicapitoldc.com/Explore-D.C	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/area_events/	http://www.hicapitoldc.com/Explore-D.C	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/meetings/	http://www.hicapitoldc.com/Meetings	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/banquets/	http://www.hicapitoldc.com/Weddings-and-Events	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/location_and_directions/	http://www.hicapitoldc.com/Directions	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/contact_form/contact_form.cfm	http://www.hicapitoldc.com/Contact-Us	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/local_attractions/museums.cfm	http://www.hicapitoldc.com/Explore-D.C/Monuments-museums	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/local_attractions/monuments.cfm	http://www.hicapitoldc.com/Explore-D.C/Monuments-museums	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/accommodations/	http://www.hicapitoldc.com/Guest-Rooms	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/dining/	http://www.hicapitoldc.com/Dining	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/amenities/	http://www.hicapitoldc.com/Amenities	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/specials_and_packages/	http://www.hicapitoldc.com/Special-Offers	[R=301,L]
+#RewriteRule	http://www.hicapitoldc.com/questions_bixler_success.cfm		[R=301,L]
+#RewriteRule	http://www.hicapitoldc.com/questions_bixler_error.cfm		[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/virtual_tour/index.cfm	http://www.hicapitoldc.com/Photos	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/privacy_policy/index.cfm http://www.holidayinn.com/hotels/us/en/global/customer_care/privacy_statement [R=301,L]
+RewriteRule	http://www.hicapitoldc.com/weddings/	http://www.hicapitoldc.com/Weddings-and-Events	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/index.cfm	http://www.hicapitoldc.com/	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/privacy_policy/	http://www.holidayinn.com/hotels/us/en/global/customer_care/privacy_statement	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/service_mark/index.cfm http://www.holidayinn.com/hotels/us/en/global/customer_care/tc#ContentOnly	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Virtual_Tour	http://www.hicapitoldc.com/Photos	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/popup/popup1.cfm	http://www.hicapitoldc.com/Photos	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/popup/popup3.cfm	http://www.hicapitoldc.com/Photos	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/popup/popup4.cfm	http://www.hicapitoldc.com/Photos	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/popup/popup5.cfm	http://www.hicapitoldc.com/Photos	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/popup/popup6.cfm	http://www.hicapitoldc.com/Photos	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Local_Attractions	http://www.hicapitoldc.com/Explore-D.C	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Area_Events	http://www.hicapitoldc.com/Explore-D.C/Area-Events	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Meetings	http://www.hicapitoldc.com/Meetings	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/meetings/meeting_rfp.cfm	http://www.hicapitoldc.com/Meetings/Meeting-RFP	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Banquets	http://www.hicapitoldc.com/Weddings-and-Events	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/weddings/wedding_rfp.cfm	http://www.hicapitoldc.com/Weddings-and-Events/Weddings-and-Events-RFP	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Location_And_Directions	http://www.hicapitoldc.com/Directions	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Contact_Us	http://www.hicapitoldc.com/Contact-Us	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Museums	http://www.hicapitoldc.com/Explore-D.C/Monuments-museums	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/local_attractions/index.cfm	http://www.hicapitoldc.com/Explore-D.C	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Monuments	http://www.hicapitoldc.com/Explore-D.C/Monuments-museums [R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Accommodations	http://www.hicapitoldc.com/Guest-Rooms	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Dining	http://www.hicapitoldc.com/Dining	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Amenities	http://www.hicapitoldc.com/Amenities	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Specials_And_Packages	http://www.hicapitoldc.com/Special-Offers	[R=301,L]
+#RewriteRule	http://www.hicapitoldc.com/flash/bixler.swf?LinkToGo=Success		[R=301,L]
+#RewriteRule	http://www.hicapitoldc.com/flash/bixler.swf?LinkToGo=Error		[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Privacy_Policy	http://www.holidayinn.com/hotels/us/en/global/customer_care/privacy_statement	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Weddings	http://www.hicapitoldc.com/Weddings-and-Events	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Meeting_Rfp	http://www.hicapitoldc.com/Meetings/Meeting-RFP	[R=301,L]
+RewriteRule	http://www.hicapitoldc.com/flash/internal.swf?LinkToGo=Wedding_Rfp http://www.hicapitoldc.com/Weddings-and-Events/Weddings-and-Events-RFP	[R=301,L]
+
+# Clushtering rules
+RewriteRule ^/var/([^/]+/)?storage/images-versioned/.* /index_cluster.php [L]
+RewriteRule ^/var/([^/]+/)?storage/images/.* /index_cluster.php [L]
+RewriteRule ^/var/([^/]+/)?storage/original/.* /index_cluster.php [L]
+RewriteRule ^/var/([^/]+/)?cache/public/(stylesheets|javascript) /index_cluster.php  [L]
+
+        #RewriteCond  %{HTTP_HOST} !^admin
+        #RewriteCond  %{HTTP_HOST} !^www
+        #RewriteRule  ^(.*)$ http://Primary URL [NC,R=301,L]
+
+# for index.php
+RewriteRule ^/([^/]+/)?content/treemenu.* /index_treemenu\.php [L]
+RewriteRule ^/var/([^/]+/)?storage/images(-versioned)?/.* - [L]
+RewriteRule ^/var/([^/]+/)?storage/original(-versioned)?/.* - [L]
+RewriteRule ^/var/([^/]+/)?cache/(texttoimage|public)/.* - [L]
+RewriteRule ^/design/[^/]+/(stylesheets|images|javascript)/.* - [L]
+RewriteRule ^/share/icons/.* - [L]
+RewriteRule ^/extension/[^/]+/design/[^/]+/(stylesheets|fonts|flash|images|lib|javascripts?)/.* - [L]
+RewriteRule ^/packages/styles/.+/(stylesheets|images|javascript)/[^/]+/.* - [L]
+RewriteRule ^/packages/styles/.+/thumbnail/.* - [L]
+RewriteRule ^/var/storage/packages/.* - [L]
+# Makes it possible to place your favicon at the root of your
+# eZ Publish instance. It will then be served directly.
+RewriteRule ^/favicon\.ico - [L]
+# Uncomment the line below if you want your favicon to be served
+# from the standard design. You can customize the path to
+# favicon.ico by changing /design/standard/images/favicon\.ico
+#RewriteRule ^/favicon\.ico /design/standard/images/favicon\.ico [L]
+RewriteRule ^/design/standard/images/favicon\.ico - [L]
+# Give direct access to robots.txt for use by crawlers (Google,
+# Bing, Spammers..)
+RewriteRule ^/robots\.txt - [L]
+# Platform for Privacy Preferences Project ( P3P ) related files
+# for Internet Explorer
+# More info here : http://en.wikipedia.org/wiki/P3p
+RewriteRule ^/w3c/p3p\.xml - [L]
+# Uncomment the following lines when using popup style debug
+# RewriteRule ^/var/cache/debug\.html.* - [L]
+# RewriteRule ^/var/[^/]+/cache/debug\.html.* - [L]
+RewriteRule .* /index\.php
+
+</IfModule>
+
+</VirtualHost>
+
+

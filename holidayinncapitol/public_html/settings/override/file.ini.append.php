@@ -1,0 +1,10 @@
+<?php
+[ClusteringSettings]
+FileHandler=eZDBFileHandler
+DBBackend=eZDBFileHandlerMysqlBackend
+DBHost=tig.mysql.master
+DBPort=
+DBName=holidayinncapitol_4_3_0
+DBUser=ezp
+DBPassword=publish
+?>

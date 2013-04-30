@@ -1,0 +1,201 @@
+a:10:{s:7:"content";s:8075:"<div class="hd-text">
+Weddings &amp; Events RFP
+</div>
+
+<div class="">    <form id="wedding" name="omni_wedding_rfp_form" class="page_form" action="/content/action" method="post">
+	<p>Please fill out the Form below and press the "Submit Request" button when you are done.<br>* Please fill out these fields</p>
+		
+			
+	<fieldset class="required">
+		<label>Date proposal must be received: *</label>
+			<input class="datepicker-arrival input-text date prop_send_date414" type="text" name="ContentObjectAttribute_ezstring_data_text_991" value="" />	</fieldset>
+	
+			
+	<fieldset class="required">
+		<label>First Name: *</label>
+			<input class="input-text name" type="text" name="ContentObjectAttribute_ezstring_data_text_992" value="" />	</fieldset>
+	
+			
+	<fieldset class="required">
+		<label>Last Name: *</label>
+			<input class="input-text name" type="text" name="ContentObjectAttribute_ezstring_data_text_993" value="" />	</fieldset>
+	
+			
+	<fieldset class="address required">
+		<label>Street: *</label>
+			<input class="input-text" type="text" name="ContentObjectAttribute_ezstring_data_text_994" value="" />	</fieldset>
+	
+			
+	<fieldset class="">
+		<label>Suite/Apt: </label>
+			<input class="input-text" type="text" name="ContentObjectAttribute_ezstring_data_text_995" value="" />	
+	</fieldset>
+	
+			
+	<fieldset class="">
+		<label>City: </label>
+			<input class="input-text" type="text" name="ContentObjectAttribute_ezstring_data_text_996" value="" />	
+	</fieldset>
+		
+			
+	<fieldset class="">
+		<label>State: </label>
+		
+
+<input type=hidden name="ContentObjectAttribute_ezselect_selected_array_997" value="">
+	<select  class="select-text" name="ContentObjectAttribute_ezselect_selected_array_997[]" >
+		<option value="Select a State" selected="selected">Select a State</option>
+		<option value="Alabama" >Alabama</option>
+		<option value="Alaska" >Alaska</option>
+		<option value="Arizona" >Arizona</option>
+		<option value="Arkansas" >Arkansas</option>
+		<option value="California" >California</option>
+		<option value="Colorado" >Colorado</option>
+		<option value="Connecticut" >Connecticut</option>
+		<option value="Delaware" >Delaware</option>
+		<option value="District of Columbia" >District of Columbia</option>
+		<option value="Florida" >Florida</option>
+		<option value="Georgia" >Georgia</option>
+		<option value="Hawaii" >Hawaii</option>
+		<option value="Idaho" >Idaho</option>
+		<option value="Illinois" >Illinois</option>
+		<option value="Indiana" >Indiana</option>
+		<option value="Iowa" >Iowa</option>
+		<option value="Kansas" >Kansas</option>
+		<option value="Kentucky" >Kentucky</option>
+		<option value="Louisiana" >Louisiana</option>
+		<option value="Maine" >Maine</option>
+		<option value="Maryland" >Maryland</option>
+		<option value="Massachusetts" >Massachusetts</option>
+		<option value="Michigan" >Michigan</option>
+		<option value="Minnesota" >Minnesota</option>
+		<option value="Mississippi" >Mississippi</option>
+		<option value="Missouri" >Missouri</option>
+		<option value="Montana" >Montana</option>
+		<option value="Nebraska" >Nebraska</option>
+		<option value="Nevada" >Nevada</option>
+		<option value="New Hampshire" >New Hampshire</option>
+		<option value="New Jersey" >New Jersey</option>
+		<option value="New Mexico" >New Mexico</option>
+		<option value="New York" >New York</option>
+		<option value="North Carolina" >North Carolina</option>
+		<option value="North Dakota" >North Dakota</option>
+		<option value="Ohio" >Ohio</option>
+		<option value="Oklahoma" >Oklahoma</option>
+		<option value="Oregon" >Oregon</option>
+		<option value="Pennsylvania" >Pennsylvania</option>
+		<option value="Rhode Island" >Rhode Island</option>
+		<option value="South Carolina" >South Carolina</option>
+		<option value="South Dakota" >South Dakota</option>
+		<option value="Tennessee" >Tennessee</option>
+		<option value="Texas" >Texas</option>
+		<option value="Utah" >Utah</option>
+		<option value="Vermont" >Vermont</option>
+		<option value="Virginia" >Virginia</option>
+		<option value="Washington" >Washington</option>
+		<option value="West Virginia" >West Virginia</option>
+		<option value="Wisconsin" >Wisconsin</option>
+		<option value="Wyoming" >Wyoming</option>
+		</select>
+	</fieldset>
+
+			
+	<fieldset class="">
+		<label>Zip/Postal Code: </label>
+			<input class="input-text zipcode" type="text" name="ContentObjectAttribute_ezstring_data_text_998" value="" />	</fieldset>
+	
+			
+	<fieldset class="required">
+		<label>E-Mail: *</label>
+		<input class="input-text" type="text" name="ContentObjectAttribute_data_text_999" value="" />				
+	</fieldset>	
+	
+			
+	<fieldset class="required">
+		<label>Telephone Number: *</label>
+			<input class="input-text name" type="text" name="ContentObjectAttribute_ezstring_data_text_1000" value="" />	</fieldset>
+	
+			
+	<fieldset class="">
+		<label>Fax: </label>
+			<input class="input-text name" type="text" name="ContentObjectAttribute_ezstring_data_text_1001" value="" />	</fieldset>
+	
+	<h2>Event Information</h2>
+	
+			
+	<fieldset class="">
+		<label>Event Name: </label>
+			<input class="input-text" type="text" name="ContentObjectAttribute_ezstring_data_text_1002" value="" />	</fieldset>
+	
+			
+	<fieldset class="">
+		<label>Event Date: </label>
+			<input class="datepicker-arrival input-text date event-start-date 426" type="text" name="ContentObjectAttribute_ezstring_data_text_1003" value="" />	</fieldset>
+			
+			
+	<fieldset class="">
+		<label>Number of guests: </label>
+			<input class="input-text small" type="text" name="ContentObjectAttribute_ezstring_data_text_1004" value="" />	</fieldset>
+	
+			
+	<fieldset class="">
+		<label>Number of guest rooms: </label>
+			<input class="input-text small" type="text" name="ContentObjectAttribute_ezstring_data_text_1005" value="" />	</fieldset>
+	
+			
+	<fieldset class="">
+		<label>Number of nights per room: </label>
+			<input class="input-text small" type="text" name="ContentObjectAttribute_ezstring_data_text_1006" value="" />	</fieldset>
+	
+			
+	<fieldset class="">
+		<label>Which wedding services are you interested in?: </label>
+		
+
+<input type=hidden name="ContentObjectAttribute_ezselect_selected_array_1007" value="">
+ 	 	
+ 	<ul class="radios"> 		
+ 		 		
+		<li class="formRadio"><label><input class="checkbox" type="checkbox" name="ContentObjectAttribute_ezselect_selected_array_1007[]" value="0">Ceremony</label></li>	
+		 		
+		<li class="formRadio"><label><input class="checkbox" type="checkbox" name="ContentObjectAttribute_ezselect_selected_array_1007[]" value="1">Reception</label></li>	
+		 		
+		<li class="formRadio"><label><input class="checkbox" type="checkbox" name="ContentObjectAttribute_ezselect_selected_array_1007[]" value="2">Rehearsal Dinner</label></li>	
+				
+	</ul> 		
+ 	
+	</fieldset>
+	
+			
+	<fieldset class="">
+		<label>How should we respond to you?: </label>
+		
+
+<input type=hidden name="ContentObjectAttribute_ezselect_selected_array_1008" value="">
+ 	 	
+ 	<ul class="radios"> 		
+ 		 		
+		<li class="formRadio"><label><input class="checkbox" type="checkbox" name="ContentObjectAttribute_ezselect_selected_array_1008[]" value="0">Phone</label></li>	
+		 		
+		<li class="formRadio"><label><input class="checkbox" type="checkbox" name="ContentObjectAttribute_ezselect_selected_array_1008[]" value="1">E-Mail</label></li>	
+		 		
+		<li class="formRadio"><label><input class="checkbox" type="checkbox" name="ContentObjectAttribute_ezselect_selected_array_1008[]" value="2">Fax</label></li>	
+		 		
+		<li class="formRadio"><label><input class="checkbox" type="checkbox" name="ContentObjectAttribute_ezselect_selected_array_1008[]" value="3">Mail</label></li>	
+				
+	</ul> 		
+ 	
+		
+	</fieldset>
+	
+	
+	<fieldset>		
+					<input type="hidden" name="ContentObjectID" value="142" />
+				<input type="hidden" name="ContentNodeID" value="142" />						
+        <input type="hidden" name="ViewMode" value="full" />		
+		<input type="submit" name="ActionCollectInformation" value="Submit" title="Submit" class="submit_btn" />
+		<input class="reset_btn" type="Reset" value="Reset" name="Reset" title="Reset" alt="Reset" />
+	</fieldset>
+</form></div>
+
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:3:{i:0;a:4:{s:4:"text";s:4:"Home";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:19:"Weddings and Events";s:3:"url";s:21:"/content/view/full/80";s:9:"url_alias";s:19:"Weddings-and-Events";s:7:"node_id";s:2:"80";}i:2;a:4:{s:4:"text";s:23:"Weddings and Events RFP";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:2:"83";}}s:10:"title_path";a:3:{i:0;a:4:{s:4:"text";s:4:"Home";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:19:"Weddings and Events";s:3:"url";s:21:"/content/view/full/80";s:9:"url_alias";s:19:"Weddings-and-Events";s:7:"node_id";s:2:"80";}i:2;a:3:{s:4:"text";s:23:"Weddings and Events RFP";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:2:"83";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:18:{s:9:"object_id";s:2:"82";s:7:"node_id";s:2:"83";s:14:"parent_node_id";s:2:"80";s:8:"class_id";s:2:"17";s:16:"class_identifier";s:8:"sub_page";s:9:"remote_id";s:32:"03bc8fb2fc9641cbba890af5a293c7ea";s:14:"node_remote_id";s:32:"3fdf8fead1589b4a2e898299e33e2faf";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"3";s:9:"url_alias";s:43:"Weddings-and-Events/Weddings-and-Events-RFP";s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:2:"18";s:23:"parent_class_identifier";s:18:"sub_page_container";}s:13:"template_list";a:9:{i:0;s:80:"extension/neteext/design/holidayinncapitol/override/templates/full/full_page.tpl";i:1;s:60:"design/standard/templates/content/datatype/view/ezstring.tpl";i:2;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:3;s:67:"design/standard/templates/content/datatype/view/ezxmltags/embed.tpl";i:4;s:87:"extension/neteext/design/holidayinncapitol/override/templates/full/wedding_rfp_form.tpl";i:5;s:62:"design/standard/templates/content/collectedinfo_validation.tpl";i:6;s:90:"extension/neteext/design/holidayinncapitol/templates/content/datatype/collect/ezstring.tpl";i:12;s:93:"extension/neteext/design/holidayinncapitol/templates/content/datatype/collect/ezselection.tpl";i:14;s:89:"extension/neteext/design/holidayinncapitol/templates/content/datatype/collect/ezemail.tpl";}s:9:"cache_ttl";i:-1;}

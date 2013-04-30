@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="false" sort-field="path" sort-order="1">
+  <serialized-name-list>a:2:{s:6:"eng-US";s:10:"Contact Us";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <identifier>contact_form</identifier>
+  <remote-id>ae24acef1e3dfe0961b662e62194c782</remote-id>
+  <object-name-pattern>Contact Us Form</object-name-pattern>
+  <url-alias-pattern></url-alias-pattern>
+  <remote>
+    <site-url>http://morrisonclark.nete.com/index.php/</site-url>
+    <url>http://morrisonclark.nete.com/index.php/class/view/28</url>
+    <groups>
+      <group id="1" name="Content"/>
+    </groups>
+    <id>28</id>
+    <created>1297954250</created>
+    <modified>1298462443</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>408</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:10:"First Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>first_name</identifier>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>100</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>409</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Last Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>last_name</identifier>
+      <placement>2</placement>
+      <datatype-parameters>
+        <max-length>100</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>410</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:6:"Street";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>street</identifier>
+      <placement>3</placement>
+      <datatype-parameters>
+        <max-length>100</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>411</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:9:"Suite/Apt";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>suite_apt</identifier>
+      <placement>4</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>412</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:4:"City";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>city</identifier>
+      <placement>5</placement>
+      <datatype-parameters>
+        <max-length>150</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezselection" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>413</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:5:"State";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>state</identifier>
+      <placement>6</placement>
+      <datatype-parameters>
+        <options>
+          <option id="0" name="Select a State"/>
+          <option id="1" name="Alabama"/>
+          <option id="2" name="Alaska"/>
+          <option id="3" name="Arizona"/>
+          <option id="4" name="Arkansas"/>
+          <option id="5" name="California"/>
+          <option id="6" name="Colorado"/>
+          <option id="7" name="Connecticut"/>
+          <option id="8" name="Delaware"/>
+          <option id="9" name="District of Columbia"/>
+          <option id="10" name="Florida"/>
+          <option id="11" name="Georgia"/>
+          <option id="12" name="Hawaii"/>
+          <option id="13" name="Idaho"/>
+          <option id="14" name="Illinois"/>
+          <option id="15" name="Indiana"/>
+          <option id="16" name="Iowa"/>
+          <option id="17" name="Kansas"/>
+          <option id="18" name="Kentucky"/>
+          <option id="19" name="Louisiana"/>
+          <option id="20" name="Maine"/>
+          <option id="21" name="Maryland"/>
+          <option id="22" name="Massachusetts"/>
+          <option id="23" name="Michigan"/>
+          <option id="24" name="Minnesota"/>
+          <option id="25" name="Mississippi"/>
+          <option id="26" name="Missouri"/>
+          <option id="27" name="Montana"/>
+          <option id="28" name="Nebraska"/>
+          <option id="29" name="Nevada"/>
+          <option id="30" name="New Hampshire"/>
+          <option id="31" name="New Jersey"/>
+          <option id="32" name="New Mexico"/>
+          <option id="33" name="New York"/>
+          <option id="34" name="North Carolina"/>
+          <option id="35" name="North Dakota"/>
+          <option id="36" name="Ohio"/>
+          <option id="37" name="Oklahoma"/>
+          <option id="38" name="Oregon"/>
+          <option id="39" name="Pennsylvania"/>
+          <option id="40" name="Rhode Island"/>
+          <option id="41" name="South Carolina"/>
+          <option id="42" name="South Dakota"/>
+          <option id="43" name="Tennessee"/>
+          <option id="44" name="Texas"/>
+          <option id="45" name="Utah"/>
+          <option id="46" name="Vermont"/>
+          <option id="47" name="Virginia"/>
+          <option id="48" name="Washington"/>
+          <option id="49" name="West Virginia"/>
+          <option id="50" name="Wisconsin"/>
+          <option id="51" name="Wyoming"/>
+        </options>
+        <is-multiselect>0</is-multiselect>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>414</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:15:"Zip/Postal Code";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>zip_postal_code</identifier>
+      <placement>7</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezcountry" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>415</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Country";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>country</identifier>
+      <placement>8</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>417</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:16:"Telephone Number";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>telephone_number</identifier>
+      <placement>9</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>418</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:3:"Fax";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>fax</identifier>
+      <placement>10</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezselection" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>419</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:19:"Send Information To";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>send_information_to</identifier>
+      <placement>11</placement>
+      <datatype-parameters>
+        <options>
+          <option id="0" name="E-Mail"/>
+          <option id="1" name="Phone"/>
+          <option id="2" name="Mail"/>
+        </options>
+        <is-multiselect>1</is-multiselect>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezselection" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>420</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:13:"Message Topic";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>message_topic</identifier>
+      <placement>12</placement>
+      <datatype-parameters>
+        <options>
+          <option id="0" name="Reservation Inquiry"/>
+          <option id="1" name="Wedding"/>
+          <option id="2" name="Social Banquet"/>
+          <option id="3" name="General Inquiry"/>
+          <option id="4" name="Corporate Group"/>
+          <option id="5" name="Other"/>
+        </options>
+        <is-multiselect>0</is-multiselect>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>421</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:12:"Arrival Date";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>arrival_date</identifier>
+      <placement>13</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>422</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:16:"Number of guests";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>guests</identifier>
+      <placement>14</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>423</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:21:"Number of guest rooms";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>guest_rooms</identifier>
+      <placement>15</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>424</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:25:"Number of nights per room";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>nights_per_room</identifier>
+      <placement>16</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="eztext" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>425</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:21:"Comments or Questions";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>comments_or_questions</identifier>
+      <placement>17</placement>
+      <datatype-parameters>
+        <text-column-count>5</text-column-count>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezemail" required="true" searchable="true" information-collector="true" translatable="true">
+      <remote>
+        <id>904</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:6:"E-Mail";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>email</identifier>
+      <placement>18</placement>
+      <datatype-parameters/>
+    </attribute>
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>426</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:17:"Thank You message";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>thankyou_message</identifier>
+      <placement>19</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezemail" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>909</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:15:"Send Results To";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>recipient</identifier>
+      <placement>20</placement>
+      <datatype-parameters/>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

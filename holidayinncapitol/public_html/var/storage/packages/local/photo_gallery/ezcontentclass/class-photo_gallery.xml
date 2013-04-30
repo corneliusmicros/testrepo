@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="true" always-available="true" sort-field="path" sort-order="1">
+  <serialized-name-list>a:2:{s:6:"eng-US";s:13:"Photo Gallery";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+  <identifier>photo_gallery</identifier>
+  <remote-id>3ceb38c57453f8ade0e3ed976e4baa07</remote-id>
+  <object-name-pattern>&lt;section_name&gt;</object-name-pattern>
+  <url-alias-pattern></url-alias-pattern>
+  <remote>
+    <site-url>http://morrisonclark.nete.com/index.php/</site-url>
+    <url>http://morrisonclark.nete.com/index.php/class/view/32</url>
+    <groups>
+      <group id="1" name="Content"/>
+    </groups>
+    <id>32</id>
+    <created>1298009329</created>
+    <modified>1298010906</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>606</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:12:"Section Name";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>section_name</identifier>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezobjectrelationlist" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>607</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:6:"Images";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>images</identifier>
+      <placement>2</placement>
+      <datatype-parameters>
+        <default-placement node-id="99"/>
+        <type>2</type>
+        <class-constraints>
+          <class-constraint class-identifier="gallery_image"/>
+        </class-constraints>
+        <selection-type>0</selection-type>
+        <object-class>18</object-class>
+      </datatype-parameters>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

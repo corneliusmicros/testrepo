@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content-class xmlns:ezcontentclass-attri="http://ezpublish/contentclassattribute" is-container="false" always-available="true" sort-field="path" sort-order="1">
+  <serialized-name-list>a:2:{s:16:"always-available";s:6:"eng-US";s:6:"eng-US";s:13:"Gallery Image";}</serialized-name-list>
+  <identifier>gallery_image</identifier>
+  <remote-id>5323ddb4331ac4fc6010655bfd9dba17</remote-id>
+  <object-name-pattern>&lt;name&gt;</object-name-pattern>
+  <url-alias-pattern></url-alias-pattern>
+  <remote>
+    <site-url>http://morrisonclark.nete.com/index.php/</site-url>
+    <url>http://morrisonclark.nete.com/index.php/class/view/31</url>
+    <groups>
+      <group id="3" name="Media"/>
+    </groups>
+    <id>31</id>
+    <created>1298009329</created>
+    <modified>1298009329</modified>
+    <creator>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </creator>
+    <modifier>
+      <user-id>14</user-id>
+      <user-login>admin</user-login>
+    </modifier>
+  </remote>
+  <ezcontentclass-attri:attributes xmlns:ezcontentclass-attribute="http://ezpublish/contentclassattribute">
+    <attribute datatype="ezstring" required="true" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>603</id>
+      </remote>
+      <serialized-name-list>a:2:{s:16:"always-available";s:6:"eng-US";s:6:"eng-US";s:4:"Name";}</serialized-name-list>
+      <identifier>name</identifier>
+      <placement>1</placement>
+      <datatype-parameters>
+        <max-length>150</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezimage" required="false" searchable="false" information-collector="false" translatable="true">
+      <remote>
+        <id>604</id>
+      </remote>
+      <serialized-name-list>a:2:{s:16:"always-available";s:6:"eng-US";s:6:"eng-US";s:5:"Image";}</serialized-name-list>
+      <identifier>image</identifier>
+      <placement>2</placement>
+      <datatype-parameters>
+        <max-size unit-size="mega">2</max-size>
+      </datatype-parameters>
+    </attribute>
+    <attribute datatype="ezstring" required="false" searchable="true" information-collector="false" translatable="true">
+      <remote>
+        <id>605</id>
+      </remote>
+      <serialized-name-list>a:2:{s:6:"eng-US";s:7:"Caption";s:16:"always-available";s:6:"eng-US";}</serialized-name-list>
+      <identifier>caption</identifier>
+      <placement>3</placement>
+      <datatype-parameters>
+        <max-length>0</max-length>
+        <default-string/>
+      </datatype-parameters>
+    </attribute>
+  </ezcontentclass-attri:attributes>
+</content-class>

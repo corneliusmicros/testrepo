@@ -1,0 +1,32 @@
+a:10:{s:7:"content";s:4602:"<div class="hd-text-int">
+Photos
+</div>
+<div id="gallery_page">	    <h1>
+Accommodations
+</h1>
+        <ul class="gallery thumb">
+    				        <li><a rel="prettyPhoto[gallery1]" href="/var/plain_site/storage/images/media/photo-gallery/accommodations/image-1/1246-3-eng-US/image-1.jpg"  title="Room"><img src="/var/plain_site/storage/images/media/photo-gallery/accommodations/image-1/1246-3-eng-US/image-1_gallery_thumb.jpg" width="200" height="120" title="Room" /></a></li>
+                <li><a rel="prettyPhoto[gallery1]" href="/var/plain_site/storage/images/media/photo-gallery/accommodations/image-2/1249-3-eng-US/image-2.jpg"  title="Room"><img src="/var/plain_site/storage/images/media/photo-gallery/accommodations/image-2/1249-3-eng-US/image-2_gallery_thumb.jpg" width="200" height="120" title="Room" /></a></li>
+                <li><a rel="prettyPhoto[gallery1]" href="/var/plain_site/storage/images/media/photo-gallery/accommodations/image-3/1252-3-eng-US/image-3.jpg"  title="Room"><img src="/var/plain_site/storage/images/media/photo-gallery/accommodations/image-3/1252-3-eng-US/image-3_gallery_thumb.jpg" width="200" height="120" title="Room" /></a></li>
+                <li><a rel="prettyPhoto[gallery1]" href="/var/plain_site/storage/images/media/photo-gallery/accommodations/image-4/1255-3-eng-US/image-4.jpg"  title="Room"><img src="/var/plain_site/storage/images/media/photo-gallery/accommodations/image-4/1255-3-eng-US/image-4_gallery_thumb.jpg" width="200" height="120" title="Room" /></a></li>
+                <li><a rel="prettyPhoto[gallery1]" href="/var/plain_site/storage/images/media/photo-gallery/accommodations/image-5/1258-3-eng-US/image-5.jpg"  title="Room"><img src="/var/plain_site/storage/images/media/photo-gallery/accommodations/image-5/1258-3-eng-US/image-5_gallery_thumb.jpg" width="200" height="120" title="Room" /></a></li>
+        	    </ul>
+        <h1>
+Amenities
+</h1>
+        <ul class="gallery thumb">
+    				        <li><a rel="prettyPhoto[gallery2]" href="/var/plain_site/storage/images/media/photo-gallery/ammenities/image-6/1261-4-eng-US/image-6.jpg"  title="Restaurant"><img src="/var/plain_site/storage/images/media/photo-gallery/ammenities/image-6/1261-4-eng-US/image-6_gallery_thumb.jpg" width="200" height="120" title="Restaurant" /></a></li>
+                <li><a rel="prettyPhoto[gallery2]" href="/var/plain_site/storage/images/media/photo-gallery/ammenities/image-7/1264-4-eng-US/image-7.jpg"  title="Restaurant"><img src="/var/plain_site/storage/images/media/photo-gallery/ammenities/image-7/1264-4-eng-US/image-7_gallery_thumb.jpg" width="200" height="120" title="Restaurant" /></a></li>
+                <li><a rel="prettyPhoto[gallery2]" href="/var/plain_site/storage/images/media/photo-gallery/ammenities/image-8/1267-4-eng-US/image-8.jpg"  title="Restaurant"><img src="/var/plain_site/storage/images/media/photo-gallery/ammenities/image-8/1267-4-eng-US/image-8_gallery_thumb.jpg" width="200" height="120" title="Restaurant" /></a></li>
+                <li><a rel="prettyPhoto[gallery2]" href="/var/plain_site/storage/images/media/photo-gallery/ammenities/image-9/1270-4-eng-US/image-9.jpg"  title="Fitness Center"><img src="/var/plain_site/storage/images/media/photo-gallery/ammenities/image-9/1270-4-eng-US/image-9_gallery_thumb.jpg" width="200" height="120" title="Fitness Center" /></a></li>
+        	    </ul>
+        <h1>
+Local Attractions
+</h1>
+        <ul class="gallery thumb">
+    				        <li><a rel="prettyPhoto[gallery3]" href="/var/plain_site/storage/images/media/photo-gallery/local-attractions/image-10/1282-3-eng-US/image-10.jpg"  title="Pool"><img src="/var/plain_site/storage/images/media/photo-gallery/local-attractions/image-10/1282-3-eng-US/image-10_gallery_thumb.jpg" width="200" height="120" title="Pool" /></a></li>
+                <li><a rel="prettyPhoto[gallery3]" href="/var/plain_site/storage/images/media/photo-gallery/local-attractions/image-11/1285-4-eng-US/image-11.jpg"  title="Monuments and Museums"><img src="/var/plain_site/storage/images/media/photo-gallery/local-attractions/image-11/1285-4-eng-US/image-11_gallery_thumb.jpg" width="200" height="120" title="Monuments and Museums" /></a></li>
+                <li><a rel="prettyPhoto[gallery3]" href="/var/plain_site/storage/images/media/photo-gallery/local-attractions/image-12/1288-3-eng-US/image-12.jpg"  title="Local events"><img src="/var/plain_site/storage/images/media/photo-gallery/local-attractions/image-12/1288-3-eng-US/image-12_gallery_thumb.jpg" width="200" height="120" title="Local events" /></a></li>
+        	    </ul>
+    </div> 
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:2:{i:0;a:4:{s:4:"text";s:4:"Home";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:6:"Photos";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:2:"84";}}s:10:"title_path";a:2:{i:0;a:4:{s:4:"text";s:4:"Home";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:3:{s:4:"text";s:6:"Photos";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:2:"84";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:18:{s:9:"object_id";s:2:"83";s:7:"node_id";s:2:"84";s:14:"parent_node_id";s:1:"2";s:8:"class_id";s:2:"17";s:16:"class_identifier";s:8:"sub_page";s:9:"remote_id";s:32:"efb993da5582d8b45c661912f6e388bb";s:14:"node_remote_id";s:32:"3f265d8c284573e8cd2a257828eeb9d0";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"2";s:9:"url_alias";s:6:"Photos";s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:2:"16";s:23:"parent_class_identifier";s:9:"home_page";}s:13:"template_list";a:2:{i:0;s:83:"extension/neteext/design/holidayinncapitol/override/templates/full/full_gallery.tpl";i:1;s:60:"design/standard/templates/content/datatype/view/ezstring.tpl";}s:9:"cache_ttl";i:-1;}
